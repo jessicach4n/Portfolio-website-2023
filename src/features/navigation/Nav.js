@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../../css/header.css'
+import { Outlet, Link } from "react-router-dom";
 
 export class Nav extends Component {
     constructor(props) {
@@ -19,10 +20,13 @@ export class Nav extends Component {
 
     render() {
         return (
+            <>
             <nav>
                 <ul>
                     <li>
-                        <button onClick={this.handleScrollToProjects}>My projects</button>
+                        <Link to={'/'}>
+                            <button onClick={this.handleScrollToProjects}>My projects</button>
+                        </Link>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/stylo.mangue/" target="_blank" rel="noreferrer">Illustrations</a>
@@ -35,6 +39,9 @@ export class Nav extends Component {
                     </li>
                 </ul>
             </nav>
+            <Outlet />
+            </>
+            
         );
     }
 }
