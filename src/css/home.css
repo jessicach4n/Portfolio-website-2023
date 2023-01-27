@@ -17,11 +17,4 @@ h1 {
     line-height: 6vw;
 }
 
-aside {
-    width: fit-content;
-    height: auto;
-    position: fixed;
-    top: 50%;
-    left: 0;
-    transform: translate(0, -50%);
-}
+

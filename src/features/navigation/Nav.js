@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import '../../css/header.css'
 import { Outlet, Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 export class Nav extends Component {
     constructor(props) {
@@ -39,6 +41,29 @@ export class Nav extends Component {
                     </li>
                 </ul>
             </nav>
+            <aside>
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jessica-chan-graphics/" target='_blank' rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} size="lg"/>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>                            
+                            <a href="https://github.com/jessicach4n" target='_blank' rel="noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="lg"/>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/jessechan.graphics/" target='_blank' rel="noreferrer">
+                                <FontAwesomeIcon icon={faInstagram} size="lg"/>
+                            </a>
+                        </li>
+                    </ul>  
+                </aside>
             <Outlet />
             </>
             

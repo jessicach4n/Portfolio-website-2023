@@ -1,5 +1,5 @@
 #section-projects {
-    padding: 10vw;
+    padding: 8vw 10vw;
     height: 100vh;
     background-color: var(--main-light-color);
 }
@@ -13,7 +13,7 @@ span {
 }
 
 .project {
-    margin-top: 6vw;
+    margin-top: 4vw;
 }
 
 .card {
