@@ -16,6 +16,10 @@ li {
   padding: 1vw 2vw;
 } 
 
+button {
+  cursor: pointer;
+}
+
 aside {
   width: fit-content;
   height: auto;
@@ -23,4 +27,8 @@ aside {
   top: 50%;
   right: 0;
   transform: translate(0, -50%);
+}
+
+aside ul li {
+  display: block;
 }

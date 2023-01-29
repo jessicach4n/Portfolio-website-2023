@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import '../../css/header.css'
 import { Outlet, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faInstagram, faBehance} from '@fortawesome/free-brands-svg-icons'
 
 export class Nav extends Component {
     constructor(props) {
@@ -12,13 +12,25 @@ export class Nav extends Component {
     }
 
     handleScrollToProjects() {
-        console.log('yo');
         const section = document.getElementById('section-projects');
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
         }
     }
 
+    handleScrollToAbout() {
+        const section = document.getElementById('section-about');
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
+    handleScrollToContact() {
+        const section = document.getElementById('section-contact');
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 
     render() {
         return (
@@ -34,10 +46,10 @@ export class Nav extends Component {
                         <a href="https://www.instagram.com/stylo.mangue/" target="_blank" rel="noreferrer">Illustrations</a>
                     </li>
                     <li>
-                        <button>About me</button>
+                        <button onClick={this.handleScrollToAbout}>About me</button>
                     </li>
                     <li>
-                        <button>Contact me</button>
+                        <button onClick={this.handleScrollToContact}>Contact me</button>
                     </li>
                 </ul>
             </nav>
@@ -48,21 +60,22 @@ export class Nav extends Component {
                                 <FontAwesomeIcon icon={faLinkedin} size="lg"/>
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>                            
                             <a href="https://github.com/jessicach4n" target='_blank' rel="noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="lg"/>
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="https://www.instagram.com/jessechan.graphics/" target='_blank' rel="noreferrer">
                                 <FontAwesomeIcon icon={faInstagram} size="lg"/>
                             </a>
                         </li>
-                    </ul>  
+                        <li>
+                            <a href="https://www.behance.net/jessicachan5" target='_blank' rel="noreferrer">
+                                <FontAwesomeIcon icon={faBehance} size="lg"/>
+                            </a>
+                        </li>
+                    </ul>
                 </aside>
             <Outlet />
             </>

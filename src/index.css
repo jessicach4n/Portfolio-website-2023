@@ -29,7 +29,8 @@ ul, li, a, button {
 
 h1, h2, h3 {
   font-family: var(--display-font);
-  text-transform: inherit;
+  text-transform: capitalize;
+
 }
 
 body {
@@ -47,6 +48,9 @@ body {
   width: fit-content;
   padding: 1vw 4vw 0 18vw;
   margin-left: -15vw;
+}
+
+.title h1 {
   text-transform: uppercase;
 }
 

@@ -8,13 +8,14 @@ export class Card extends Component {
 
         this.projectName = this.props.projectName;
         this.backgroundImage = this.props.backgroundImage;
+        this.tags = this.props.tags;
     }
 
     render() {
         console.log(this.backgroundImage)
         return (
             <div className="project">
-                <Tags tags={['Programming', 'Web', 'ReactJS', 'PostgreSQL', 'p5']}/>
+                <Tags tags={this.tags}/>
                 <div className="card" style={{backgroundImage: `url(${this.backgroundImage})`}}>
                     <h2>{this.projectName}</h2>
                 </div>

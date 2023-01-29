@@ -1,15 +1,34 @@
-#section-projects {
+/******* Home page project section *******/
+
+section {
     padding: 8vw 10vw;
-    height: 100vh;
+    height: fit-content;
     background-color: var(--main-light-color);
 }
 
+section .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-nav button {
+    text-transform: capitalize;
+    padding: 1vw 2vw;
+    border: 2px solid var(--main-accent-color);
+    border-radius: 2vw;
+    margin-left: 1vw;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
 span {
+    font-family: var(--display-font);
     padding: 0.4vw 0.8vw;
     border: 2px solid white;
     border-radius: 100px;
     margin-right: 1vw;
-    text-transform: none;
+    text-transform: capitalize;
 }
 
 .project {
@@ -17,7 +36,7 @@ span {
 }
 
 .card {
-    text-transform: none;
+    text-transform: capitalize;
     margin-top: 1.4vw;
     background-color: cyan;
     height: 8vw;
@@ -32,6 +51,59 @@ span {
     background-position: center;
 }
 
+/******* Project description pages *******/
+
+.content {
+    margin: 4vw 10vw;
+}
+
+.content div.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content div a {
+    margin-left: 2vw;
+    border: 2px solid var(--main-accent-color);
+    border-radius: 2vw;
+    height: fit-content;
+    padding: 1vw 2vw;
+}
+
+.content div button {
+    border-bottom: 2px solid var(--main-accent-color);
+}
+
+.content h1 {
+    margin-bottom: 1vw;
+    text-transform: capitalize;
+}
+
+.content h2 {
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+    margin: 0 0 0.4vw 0;
+}
+
+.content h3 {
+    text-transform: uppercase;
+    font-size: 1vw;
+    line-height: 1.4vw;
+    margin: 1.2vw 0 0.2vw 0;
+}
+
+.two-columns {
+    text-align: justify;
+    column-count: 2;
+    column-gap: 2vw;
+}
+
+.content p {
+    font-size: 1.1vw;
+    margin-bottom: 0.4vw;
+}
 
 
 
