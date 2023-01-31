@@ -105,5 +105,11 @@ span {
     margin-bottom: 0.4vw;
 }
 
+iframe {
+    width: 100%;
+    height: 30vw;
+    margin: 0.2vw 0 2vw 0;
+}
+
 
 

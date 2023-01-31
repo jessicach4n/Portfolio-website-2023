@@ -2,17 +2,15 @@ import React, { Component } from "react";
 import '../../css/projects.css'
 
 export class GenArt extends Component {
-
+    
     render() {
         return (
             <section className="content">
                 <div className="heading">
                     <h1>Weather Art Generator</h1>
-                    <div>
-                        <button>Video demo</button>
-                        <a href="https://xd.adobe.com/view/bc64e717-7982-457f-a692-a429f51572c8-e937/" target='_blank'>Adobe XD prototype</a>
-                    </div>
+                    <a href="https://xd.adobe.com/view/bc64e717-7982-457f-a692-a429f51572c8-e937/" target='_blank'>Adobe XD prototype</a>
                 </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aztXTNB8xCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <h2>The project</h2>
                 <div className="two-columns">
                     <p>
@@ -54,7 +52,6 @@ export class GenArt extends Component {
                 <h3>By</h3>
                 <p>Jessica Chan</p>
                 <p>Sebastian Perez</p>
-                <video src=""></video>
     
                 
             </section>
