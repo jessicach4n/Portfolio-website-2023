@@ -3,29 +3,26 @@ import '../../css/projects.css';
 import { Title } from "../Title";
 import { Design } from "./Design";
 import { Programming } from "./Programming";
-
-const PROGRAMMING = 'Programming';
-const DESIGN = 'Graphic Design';
+import * as myConstants from '../../constants'
 
 export class Projects extends Component {
     constructor(props) {
         super(props);
 
-        
-        this.state = {  type: PROGRAMMING,
+        this.state = {  type: myConstants.PROGRAMMING,
                         viewing: <Programming/>
                     };
         this.toggleProjectView = this.toggleProjectView.bind(this);
     }
 
     toggleProjectView() {
-        if (this.state.type == PROGRAMMING) {
+        if (this.state.type === myConstants.PROGRAMMING) {
             this.setState({viewing: <Design/>});
-            this.setState({type: DESIGN});
+            this.setState({type: myConstants.DESIGN});
         }
         else {
             this.setState({viewing: <Programming/>})
-            this.setState({type: PROGRAMMING});
+            this.setState({type: myConstants.PROGRAMMING});
         }
     }
 
@@ -36,7 +33,7 @@ export class Projects extends Component {
                     <Title titlename="My projects" />
                     <div className="project-nav">
                         <button id="btn-toggle" onClick={this.toggleProjectView}>
-                            View {this.state.type == PROGRAMMING ? DESIGN : PROGRAMMING}
+                            View {this.state.type === myConstants.PROGRAMMING ? myConstants.DESIGN : myConstants.PROGRAMMING}
                         </button>
                     </div>
                 </div>

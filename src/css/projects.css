@@ -38,7 +38,7 @@ span {
 .card {
     text-transform: capitalize;
     margin-top: 1.4vw;
-    background-color: cyan;
+    background-color: var(--main-accent-color);
     height: 8vw;
     width: auto;
     border-radius: 10px;
@@ -49,6 +49,11 @@ span {
     background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.card h2 {
+    background-color: #312d2d67;
+    border-radius: inherit;
 }
 
 /******* Project description pages *******/
@@ -76,7 +81,7 @@ span {
 }
 
 .content h1 {
-    margin-bottom: 1vw;
+    margin: 0.6vw 0 1vw 0;
     text-transform: capitalize;
 }
 
@@ -84,7 +89,7 @@ span {
     text-transform: uppercase;
     font-size: 1.2vw;
     line-height: 1.4vw;
-    margin: 0 0 0.4vw 0;
+    margin: 2vw 0 0.4vw 0;
 }
 
 .content h3 {
@@ -106,10 +111,17 @@ span {
 }
 
 iframe {
-    width: 100%;
-    height: 30vw;
-    margin: 0.2vw 0 2vw 0;
+    margin-top: 1vw;
 }
 
+img {
+    margin: 0.2vw 0 0 0;
+    width: 100%;
+    height: auto;
+}
 
-
+.doc {
+    font-family: var(--paragraph-font);
+    border-bottom: 1px solid var(--main-accent-color);
+    text-transform: capitalize;
+}

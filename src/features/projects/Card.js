@@ -12,7 +12,6 @@ export class Card extends Component {
     }
 
     render() {
-        console.log(this.backgroundImage)
         return (
             <div className="project">
                 <Tags tags={this.tags}/>

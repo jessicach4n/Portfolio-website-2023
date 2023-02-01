@@ -9,7 +9,6 @@ export class Tags extends Component {
     }
 
     render() {
-        console.log(this.tags)
         return (
             <div className="tags">
                 {

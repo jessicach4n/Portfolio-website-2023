@@ -1,16 +1,25 @@
 import React, { Component } from "react";
 import '../../css/projects.css'
+import genArtMockup from "../../assets/genart-mockup.jpg"
+import DesignDoc from "../../assets/DesignDocument.pdf"
+import { Tags } from "../projects/Tags";
+import * as myConstants from '../../constants'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faGithub} from '@fortawesome/free-brands-svg-icons'
+
 
 export class GenArt extends Component {
     
     render() {
         return (
             <section className="content">
+                <Tags tags={myConstants.GENART_TAGS}/>
                 <div className="heading">
                     <h1>Weather Art Generator</h1>
-                    <a href="https://xd.adobe.com/view/bc64e717-7982-457f-a692-a429f51572c8-e937/" target='_blank'>Adobe XD prototype</a>
+                    <a href="https://xd.adobe.com/view/bc64e717-7982-457f-a692-a429f51572c8-e937/" target='_blank' rel="noreferrer">Adobe XD prototype</a>
                 </div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/aztXTNB8xCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <img width="1500px" height='890px' src={genArtMockup} 
+                alt="Multiple pages appearing on the Weather Art Generator website."/>
                 <h2>The project</h2>
                 <div className="two-columns">
                     <p>
@@ -49,10 +58,17 @@ export class GenArt extends Component {
                 </div>
                 <h3>Materials</h3>
                 <p>This web project was developped with ReactJS, P5 and PostgreSQL.</p>
+                <a href="https://github.com/jessicach4n/ProjetSynthese_A2022" target='_blank' rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="lg"/>
+                </a>
+                <h3>Design document</h3>
+                <a href={DesignDoc} className="doc" target="_blank" rel="noreferrer">View here</a>
                 <h3>By</h3>
                 <p>Jessica Chan</p>
                 <p>Sebastian Perez</p>
-    
+                <h2>Video</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aztXTNB8xCc" title="YouTube video player" frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 
             </section>
         );

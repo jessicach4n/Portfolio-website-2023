@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../../css/projects.css'
+import RadishMockup from "../../assets/radish-mockup.jpg"
 
 export class RadishParty extends Component {
 
@@ -8,11 +9,10 @@ export class RadishParty extends Component {
             <section className="content">
                 <div className="heading">
                     <h1>Radish Party</h1>
-                    <div>
-                        <button>Video demo</button>
-                        <a href="" target='_blank'>Play online</a>
-                    </div>
+                    <a href="" target='_blank' ref="noreferrer">Play online</a>
                 </div>
+                <img width="1200px" height='800px' src={RadishMockup} 
+                alt="Multiple pages appearing on the Weather Art Generator website."/>
                 <h2>The project</h2>
                 <div className="two-columns">
                     <p>

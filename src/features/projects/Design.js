@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import '../../css/projects.css';
 import { Card } from "./Card";
-import genArtImage from "../../assets/genart.png"
 import { Link } from "react-router-dom";
-
-const DESIGN = 'Design';
-
+import * as myConstants from '../../constants'
 
 export class Design extends Component {
 
@@ -14,7 +11,7 @@ export class Design extends Component {
             <div>
                 <Link to={'/screen-printing'}>
                     <Card projectName="Screen Printing"
-                        tags={[DESIGN]} />
+                        tags={[myConstants.DESIGN]} />
                 </Link>
             </div>
         );
