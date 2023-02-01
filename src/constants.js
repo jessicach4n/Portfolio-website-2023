@@ -8,4 +8,5 @@ export const UNITY = 'Unity';
 export const CS = 'C#';
 export const DESIGN = 'Graphic Design';
 
-export const GENART_TAGS = [PROGRAMMING, WEB, JAVASCRIPT, REACT, P5, POSTGRESQL]
+export const GENART_TAGS = [PROGRAMMING, WEB, JAVASCRIPT, REACT, P5, POSTGRESQL];
+export const RADISH_TAGS = [PROGRAMMING, UNITY, CS];

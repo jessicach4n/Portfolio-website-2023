@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import '../../css/projects.css'
 import RadishMockup from "../../assets/radish-mockup.jpg"
+import { Tags } from "../projects/Tags";
+import * as myConstants from '../../constants'
+
 
 export class RadishParty extends Component {
 
     render() {
         return (
             <section className="content">
+                <Tags tags={myConstants.RADISH_TAGS}/>
                 <div className="heading">
                     <h1>Radish Party</h1>
                     <a href="" target='_blank' ref="noreferrer">Play online</a>
