@@ -7,9 +7,9 @@ function RadishWebGL() {
     loaderUrl: "build/RadishPartyGame.loader.js",
     dataUrl: "build/RadishPartyGame.data",
     frameworkUrl: "build/RadishPartyGame.framework.js",
-    codeUrl: "build/RadishPartyGame.wasm",
+    codeUrl: "build/RadishPartyGame.wasm"
   });
-  return <Unity unityProvider={unityProvider} style={{ width: "1920px", height: "1080px"}}/>;
+  return <Unity unityProvider={unityProvider} devicePixelRatio={window.devicePixelRatio} style={{ width: "100vw", height: "100vh"}}/>;
 }
 
 export default RadishWebGL;
