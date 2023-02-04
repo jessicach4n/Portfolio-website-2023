@@ -141,3 +141,9 @@ video.govid {
     width: 100vw;
     height: auto;
 }
+
+.column {
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: repeat(3, 1fr);
+}

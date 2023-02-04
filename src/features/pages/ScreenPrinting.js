@@ -6,8 +6,11 @@ export class ScreenPrinting extends Component {
     render() {
         return (
             <section className="content">
-                <div className="heading">
-                    <h1>Exhibition poster</h1>
+                <h1>Exhibition poster</h1>
+                <div className="column">
+                    <img src="images/expo1.jpg"></img>
+                    <img src="images/expo2.jpg"></img>
+                    <img src="images/expo3.jpg"></img>
                 </div>
                 <h2>The project</h2>
                 <div>
@@ -17,8 +20,15 @@ export class ScreenPrinting extends Component {
                     </p>
                 </div>
                 
-                <div className="heading">
-                    <h1>Atelier Denis Malo</h1>
+                
+                <h1>Atelier Denis Malo</h1>
+                <div className="column">
+                    <img src="images/denis-malo1.jpg"></img>
+                    <img src="images/denis-malo2.jpg"></img>
+                    <img src="images/denis-malo3.jpg"></img>
+                    <img src="images/denis-malo4.jpg"></img>
+                    <img src="images/denis-malo5.jpg"></img>
+                    <img src="images/denis-malo7.jpg"></img>
                 </div>
                 <h2>The project</h2>
                 <div>
@@ -33,8 +43,15 @@ export class ScreenPrinting extends Component {
                     </p>
                 </div>
 
-                <div className="heading">
-                    <h1>A zine of classical portraits</h1>
+             
+                <h1>A zine of classical portraits</h1>
+                <div className="column">
+                    <img src="images/zine1.jpg"></img>
+                    <img src="images/zine2.jpg"></img>
+                    <img src="images/zine3.jpg"></img>
+                    <img src="images/zine4.jpg"></img>
+                    <img src="images/zine5.jpg"></img>
+                    <img src="images/zine6.jpg"></img>
                 </div>
                 <h2>The project</h2>
                 <div>
@@ -42,13 +59,9 @@ export class ScreenPrinting extends Component {
                         Classic portraits such as The Girl with the Pearl by Johannes Vermeer, American Gothic by Grant Wood, 
                         The Desperate by Gustave Courbet and The Self-Portrait with the Straw Hat by Vincent Van Gogh inspired 
                         this reimagined collection of these works, adapted into illustrations and where the subjects are 
-                        replaced by animals
+                        replaced by animals.
                     </p>
                 </div>     
-
-                <video src=""></video>
-    
-                
             </section>
         );
     }
