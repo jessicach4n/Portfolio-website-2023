@@ -3,6 +3,7 @@ import '../../css/projects.css'
 import RadishMockup from "../../assets/radish-mockup.jpg"
 import { Tags } from "../projects/Tags";
 import * as myConstants from '../../constants'
+import { Link } from "react-router-dom";
 
 
 export class RadishParty extends Component {
@@ -10,17 +11,22 @@ export class RadishParty extends Component {
     render() {
         return (
             <section className="content">
-                <Tags tags={myConstants.RADISH_TAGS}/>
+                <Tags tags={myConstants.RADISH_TAGS} />
                 <div className="heading">
                     <h1>Radish Party</h1>
-                    <a href="" target='_blank' ref="noreferrer">Play online</a>
+                    <Link to={'/play-radish-party'}>
+                        <button className="decorated-link">Play online</button>
+                    </Link>
                 </div>
-                <img width="1200px" height='800px' src={RadishMockup} 
-                alt="Multiple pages appearing on the Weather Art Generator website."/>
+                <img width="1200px" height='800px' src={RadishMockup}
+                    alt="Multiple pages appearing on the Weather Art Generator website." />
                 <h2>The project</h2>
                 <div className="two-columns">
                     <p>
-                        Radish Party is a single player platformer...
+                        In the single-player platformer Radish Party, the player must collect all five pies on
+                        the map to assist Mr. Radish in getting to the portals that are blocked by a bright
+                        ray that emerges from a bottle. In order to survive the game, the player must evade their deadly foe,
+                        Mr. Bunny, and his carrot projectiles.
                     </p>
                 </div>
                 <h3>Materials</h3>
@@ -30,13 +36,13 @@ export class RadishParty extends Component {
                 <p>Free Pixel Food - Henry Software</p>
                 <p>Cartoon FX Remaster Free - Jean Moreno</p>
                 <p>Volumetric Lines - Johannes Unterguggenberger</p>
-                <h3>By</h3>
-                <p>Jessica Chan</p>
+                <h3>In collaboration with</h3>
                 <p>Sebastian Perez</p>
+                <h2>Video</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/luruY0DMh_M" title="YouTube video player" frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
-                <video src=""></video>
-    
-                
+
             </section>
         );
     }

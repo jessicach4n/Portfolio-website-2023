@@ -68,7 +68,7 @@ span {
     align-items: center;
 }
 
-.content div a {
+.decorated-link {
     margin-left: 2vw;
     border: 2px solid var(--main-accent-color);
     border-radius: 2vw;
@@ -124,4 +124,20 @@ img {
     font-family: var(--paragraph-font);
     border-bottom: 1px solid var(--main-accent-color);
     text-transform: capitalize;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+video.govid {
+    width: 20vw;
+    height: auto;
+    border-radius: 16px;
+}
+
+.play {
+    width: 100vw;
+    height: auto;
 }
