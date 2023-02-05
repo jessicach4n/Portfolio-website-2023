@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import '../../css/projects.css'
 import genArtMockup from "../../assets/genart-mockup.jpg"
 import DesignDoc from "../../assets/DesignDocument.pdf"
@@ -6,9 +6,10 @@ import { Tags } from "../projects/Tags";
 import * as myConstants from '../../constants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { Page } from './Page'
 
 
-export class GenArt extends Component {
+export class GenArt extends Page {
 
     render() {
         return (
@@ -60,7 +61,7 @@ export class GenArt extends Component {
                     </p>
                 </div>
                 <h3>Materials</h3>
-                <p>This web project was developped with ReactJS, P5 and PostgreSQL.</p>
+                <p>This web project was developped with Javascript, ReactJS, P5, PHP and PostgreSQL.</p>
                 <a href="https://github.com/jessicach4n/ProjetSynthese_A2022" target='_blank' rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} size="lg" />
                 </a>

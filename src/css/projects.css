@@ -135,15 +135,26 @@ video.govid {
     width: 20vw;
     height: auto;
     border-radius: 16px;
+    margin-left: 2vw;
 }
 
 .play {
     width: 100vw;
-    height: auto;
+    height: 100vh;
+    background-color: var(--main-light-color);
 }
 
 .column {
     display: grid;
     gap: 1vw;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.unity {
+    width: 960px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

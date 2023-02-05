@@ -1,12 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import '../../css/projects.css'
 import RadishMockup from "../../assets/radish-mockup.jpg"
 import { Tags } from "../projects/Tags";
 import * as myConstants from '../../constants'
 import { Link } from "react-router-dom";
+import { Page } from "./Page";
 
 
-export class RadishParty extends Component {
+export class RadishParty extends Page {
 
     render() {
         return (

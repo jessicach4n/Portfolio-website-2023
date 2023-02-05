@@ -23,7 +23,7 @@ export class Programming extends Component {
                         tags={myConstants.RADISH_TAGS} />
                 </Link>
                 <Link to={'/123go'}>
-                    <Card projectName="123 GO!"
+                    <Card projectName="Mobile games for kids"
                         backgroundImage={goApp}
                         tags={myConstants.GO_TAGS} />
                 </Link>

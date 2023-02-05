@@ -1,16 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import '../../css/projects.css'
+import { Page } from "./Page";
 
-export class ScreenPrinting extends Component {
+export class ScreenPrinting extends Page {
 
     render() {
         return (
             <section className="content">
                 <h1>Exhibition poster</h1>
                 <div className="column">
-                    <img src="images/expo1.jpg"></img>
-                    <img src="images/expo2.jpg"></img>
-                    <img src="images/expo3.jpg"></img>
+                    <img src="assets/expo1.jpg"></img>
+                    <img src="assets/expo2.jpg"></img>
+                    <img src="assets/expo3.jpg"></img>
                 </div>
                 <h2>The project</h2>
                 <div>
@@ -23,12 +24,12 @@ export class ScreenPrinting extends Component {
                 
                 <h1>Atelier Denis Malo</h1>
                 <div className="column">
-                    <img src="images/denis-malo1.jpg"></img>
-                    <img src="images/denis-malo2.jpg"></img>
-                    <img src="images/denis-malo3.jpg"></img>
-                    <img src="images/denis-malo4.jpg"></img>
-                    <img src="images/denis-malo5.jpg"></img>
-                    <img src="images/denis-malo7.jpg"></img>
+                    <img src="assets/denis-malo1.jpg"></img>
+                    <img src="assets/denis-malo2.jpg"></img>
+                    <img src="assets/denis-malo3.jpg"></img>
+                    <img src="assets/denis-malo4.jpg"></img>
+                    <img src="assets/denis-malo5.jpg"></img>
+                    <img src="assets/denis-malo7.jpg"></img>
                 </div>
                 <h2>The project</h2>
                 <div>
@@ -46,12 +47,12 @@ export class ScreenPrinting extends Component {
              
                 <h1>A zine of classical portraits</h1>
                 <div className="column">
-                    <img src="images/zine1.jpg"></img>
-                    <img src="images/zine2.jpg"></img>
-                    <img src="images/zine3.jpg"></img>
-                    <img src="images/zine4.jpg"></img>
-                    <img src="images/zine5.jpg"></img>
-                    <img src="images/zine6.jpg"></img>
+                    <img src="assets/zine1.jpg"></img>
+                    <img src="assets/zine2.jpg"></img>
+                    <img src="assets/zine3.jpg"></img>
+                    <img src="assets/zine4.jpg"></img>
+                    <img src="assets/zine5.jpg"></img>
+                    <img src="assets/zine6.jpg"></img>
                 </div>
                 <h2>The project</h2>
                 <div>

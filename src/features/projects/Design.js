@@ -11,7 +11,7 @@ export class Design extends Component {
             <div>
                 <Link to={'/screen-printing'}>
                     <Card projectName="Screen Printing"
-                        backgroundImage="images/denis-malo5.jpg"
+                        backgroundImage="assets/denis-malo5.jpg"
                         tags={[myConstants.DESIGN]} />
                 </Link>
             </div>
