@@ -10,8 +10,10 @@ export class Contact extends Component {
                 <div className="heading">
                     <Title titlename="Contact me" />
                 </div>
-                
-
+                <div className="contact-content">
+                    <p>If you would like to discuss about future projects, feel free to contact me through the following email address :</p>
+                    <a href="mailto:jessicachan.graphicdesign@gmail.com.">jessicachan.graphicdesign@gmail.com</a>
+                </div>
             </section>
         );
     }

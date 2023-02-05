@@ -34,7 +34,8 @@ h1, h2, h3 {
 }
 
 body {
-  font-size: 1vw;
+  font-size: 1.1vw;
+  line-height: 1.4vw;
   color: var(--main-accent-color);
   font-family: var(--paragraph-font);
   -webkit-font-smoothing: antialiased;
@@ -54,4 +55,10 @@ body {
   text-transform: uppercase;
 }
 
-
+footer {
+  font-size: 0.8vw;
+  background-color: var(--main-light-color);
+  text-align: center;
+  padding: 10vw 0 1.2vw;
+ 
+}

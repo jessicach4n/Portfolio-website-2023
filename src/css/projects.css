@@ -56,6 +56,38 @@ span {
     border-radius: inherit;
 }
 
+/******* About section **********/
+
+.about-content {
+    margin: 4vw 8vw 0;
+    line-height: 1.6vw;
+}
+
+.about-content p {
+    margin-bottom: 0.8vw;
+    margin-right: 4vw;
+}
+
+.about-content img {
+    width: 20vw;
+    height: auto;
+    border-radius: 20px;
+}
+
+/******* Contact section **********/
+
+.contact-content {
+    margin: 4vw 8vw 0;
+    line-height: 3vw;
+}
+
+.contact-content a {
+    font-size: 1.6vw;
+    border-bottom: 2px solid var(--main-accent-color);
+}
+
+
+
 /******* Project description pages *******/
 
 .content {
@@ -100,7 +132,6 @@ span {
 }
 
 .two-columns {
-    text-align: justify;
     column-count: 2;
     column-gap: 2vw;
 }
