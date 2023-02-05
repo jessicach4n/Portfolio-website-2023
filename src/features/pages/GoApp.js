@@ -1,6 +1,5 @@
 import React from "react";
 import '../../css/projects.css'
-import GoVideo from "../../assets/123Go.mp4"
 import { Tags } from "../projects/Tags";
 import * as myConstants from '../../constants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -32,7 +31,7 @@ export class GoApp extends Page {
                     <p>Some images appearing in the video are by pikisuperstar on Freepik.</p>
                     <p>Exercise iconographies by Stéphanie Voyer.</p>
                 </div>
-                <video className="govid" width='250px' height='442px' src={GoVideo} controls autoPlay></video>
+                <video className="govid" width='250px' height='442px' src="assets/123Go.mp4" controls autoPlay></video>
             </section>
 
 

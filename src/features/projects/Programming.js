@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import '../../css/projects.css';
 import { Card } from "./Card";
-import genArtImage from "../../assets/genart.png"
-import radishImage from "../../assets/radish.png"
-import goApp from "../../assets/123go.png"
 import { Link } from "react-router-dom";
 import * as myConstants from '../../constants'
 
@@ -14,17 +11,17 @@ export class Programming extends Component {
             <div>
                 <Link to={'/weather-art-generator'}>
                     <Card projectName="Weather Art Generator"
-                        backgroundImage={genArtImage}
+                        backgroundImage="assets/genart.png"
                         tags={myConstants.GENART_TAGS} />
                 </Link>
                 <Link to={'/radish-party'}>
                     <Card projectName="Radish Party"
-                        backgroundImage={radishImage}
+                        backgroundImage="assets/radish.png"
                         tags={myConstants.RADISH_TAGS} />
                 </Link>
                 <Link to={'/123go'}>
                     <Card projectName="Mobile games for kids"
-                        backgroundImage={goApp}
+                        backgroundImage="assets/123go.png"
                         tags={myConstants.GO_TAGS} />
                 </Link>
 

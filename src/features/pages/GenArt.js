@@ -1,7 +1,5 @@
 import React from "react";
 import '../../css/projects.css'
-import genArtMockup from "../../assets/genart-mockup.jpg"
-import DesignDoc from "../../assets/DesignDocument.pdf"
 import { Tags } from "../projects/Tags";
 import * as myConstants from '../../constants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -22,7 +20,7 @@ export class GenArt extends Page {
                         Adobe XD prototype
                     </a>
                 </div>
-                <img width="1500px" height='890px' src={genArtMockup}
+                <img width="1500px" height='890px' src="assets/genart-mockup.jpg"
                     alt="Multiple pages appearing on the Weather Art Generator website." />
                 <h2>The project</h2>
                 <div className="two-columns">
@@ -66,7 +64,7 @@ export class GenArt extends Page {
                     <FontAwesomeIcon icon={faGithub} size="lg" />
                 </a>
                 <h3>Design document</h3>
-                <a href={DesignDoc} className="doc" target="_blank" rel="noreferrer">View here</a>
+                <a href="assets/DesignDocument.pdf" className="doc" target="_blank" rel="noreferrer">View here</a>
                 <h3>In collaboration with</h3>
                 <p>Sebastian Perez</p>
                 <h2>Video</h2>

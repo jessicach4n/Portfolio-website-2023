@@ -7,7 +7,7 @@ export class Home extends Component {
         return (
             <section className="home">
                 <div className="home-texts">
-                    <p className="work-title">Graphic designer | Web developper | Illustrator</p>
+                    <p className="work-title">Junior Web developper | Graphic designer | Illustrator</p>
                     <h1>Hey there, I’m Jessica!</h1>
                 </div>
             </section>

@@ -1,6 +1,5 @@
 import React from "react";
 import '../../css/projects.css'
-import RadishMockup from "../../assets/radish-mockup.jpg"
 import { Tags } from "../projects/Tags";
 import * as myConstants from '../../constants'
 import { Link } from "react-router-dom";
@@ -19,7 +18,7 @@ export class RadishParty extends Page {
                         <button className="decorated-link">Play online</button>
                     </Link>
                 </div>
-                <img width="1200px" height='800px' src={RadishMockup}
+                <img width="1200px" height='800px' src="assets/radish-mockup.jpg"
                     alt="Multiple pages appearing on the Weather Art Generator website." />
                 <h2>The project</h2>
                 <div className="two-columns">

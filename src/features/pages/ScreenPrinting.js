@@ -9,9 +9,9 @@ export class ScreenPrinting extends Page {
             <section className="content">
                 <h1>Exhibition poster</h1>
                 <div className="column">
-                    <img src="assets/expo1.jpg"></img>
-                    <img src="assets/expo2.jpg"></img>
-                    <img src="assets/expo3.jpg"></img>
+                    <img src="assets/expo1.jpg" alt="Poster of a colorful monster wearing a graduation hat drooling over coffee."></img>
+                    <img src="assets/expo2.jpg" alt="Colorful monster illustration close-up"></img>
+                    <img src="assets/expo3.jpg" alt="Close-up of the texts"></img>
                 </div>
                 <h2>The project</h2>
                 <div>
@@ -24,12 +24,12 @@ export class ScreenPrinting extends Page {
                 
                 <h1>Atelier Denis Malo</h1>
                 <div className="column">
-                    <img src="assets/denis-malo1.jpg"></img>
-                    <img src="assets/denis-malo2.jpg"></img>
-                    <img src="assets/denis-malo3.jpg"></img>
-                    <img src="assets/denis-malo4.jpg"></img>
-                    <img src="assets/denis-malo5.jpg"></img>
-                    <img src="assets/denis-malo7.jpg"></img>
+                    <img src="assets/denis-malo1.jpg" alt="Poster with clouds and a dragon wrapped around mountains."></img>
+                    <img src="assets/denis-malo2.jpg" alt="Poster with clouds and a dragon wrapped around mountains." ></img>
+                    <img src="assets/denis-malo3.jpg" alt="Poster with clouds and a dragon wrapped around mountains."></img>
+                    <img src="assets/denis-malo4.jpg" alt="Poster with clouds and a dragon wrapped around mountains."></img>
+                    <img src="assets/denis-malo5.jpg" alt="Poster with clouds and a dragon wrapped around mountains."></img>
+                    <img src="assets/denis-malo7.jpg" alt="Poster with clouds and a dragon wrapped around mountains."></img>
                 </div>
                 <h2>The project</h2>
                 <div>
@@ -47,12 +47,12 @@ export class ScreenPrinting extends Page {
              
                 <h1>A zine of classical portraits</h1>
                 <div className="column">
-                    <img src="assets/zine1.jpg"></img>
-                    <img src="assets/zine2.jpg"></img>
-                    <img src="assets/zine3.jpg"></img>
-                    <img src="assets/zine4.jpg"></img>
-                    <img src="assets/zine5.jpg"></img>
-                    <img src="assets/zine6.jpg"></img>
+                    <img src="assets/zine1.jpg" alt="Content of the zine."></img>
+                    <img src="assets/zine2.jpg" alt="Content of the zine."></img>
+                    <img src="assets/zine3.jpg" alt="Content of the zine."></img>
+                    <img src="assets/zine4.jpg" alt="Content of the zine."></img>
+                    <img src="assets/zine5.jpg" alt="Content of the zine."></img>
+                    <img src="assets/zine6.jpg" alt="Content of the zine."></img>
                 </div>
                 <h2>The project</h2>
                 <div>
