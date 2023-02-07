@@ -30,7 +30,7 @@ export class RadishParty extends Page {
                     </p>
                 </div>
                 <h3>Materials</h3>
-                <p>This game was developped with Unity and C#.</p>
+                <p>This game was developped with Unity and C# in the context of a school project.</p>
                 <h3>Assets from Unity Asset Store</h3>
                 <p>Pixel Adventure 1 & 2 - Pixel Frog</p>
                 <p>Free Pixel Food - Henry Software</p>

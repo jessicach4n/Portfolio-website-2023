@@ -1,3 +1,7 @@
+.tags {
+    margin-left: -0.5vw;
+}
+
 /******* Home page project section *******/
 
 section {
@@ -55,7 +59,7 @@ span {
 }
 
 .card h2 {
-    background-color: #312d2d1c;
+    background-color: #4747476e;
     border-radius: inherit;
 }
 
@@ -89,9 +93,11 @@ span {
     border-bottom: 2px solid var(--main-accent-color);
 }
 
-
-
 /******* Project description pages *******/
+
+article {
+    margin-bottom: 6vw;
+}
 
 .content {
     margin: 4vw 6vw;
@@ -116,8 +122,9 @@ span {
 }
 
 .content h1 {
-    margin: 0.6vw 0 1vw 0;
+    margin: 1vw 0;
     text-transform: capitalize;
+    line-height: 4vw;
 }
 
 .content h2 {
@@ -182,12 +189,15 @@ video.govid {
     display: grid;
     gap: 1vw;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 0.5vw;
 }
 
 .two-column {
     display: grid;
     gap: 1vw;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 0.5vw;
+
 }
 
 .unity {
@@ -197,10 +207,4 @@ video.govid {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.qr {
-    width: 6vw;
-    height: auto;
-    mix-blend-mode: multiply;
 }

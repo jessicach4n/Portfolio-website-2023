@@ -29,7 +29,11 @@ export class Programming extends Component {
                             backgroundImage=""
                             tags={myConstants.WORDCO_TAGS} />
                 </Link>
-
+                <Link to={'/web-chatroom'}>
+                    <Card projectName="Chatroom"
+                            backgroundImage=""
+                            tags={myConstants.CHATROOM_TAGS} />
+                </Link>
             </div>
         );
     }

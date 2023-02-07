@@ -23,7 +23,7 @@ export class GoApp extends Page {
                         </p>
                     </div>
                     <h3>Materials</h3>
-                    <p>This project was developped with Android Studio.</p>
+                    <p>This project was developped with Android Studio in the context of a school project..</p>
                     <a href="https://github.com/jessicach4n/123Go" target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} size="lg"/>
                     </a>        

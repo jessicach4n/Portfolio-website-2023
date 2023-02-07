@@ -21,7 +21,7 @@ export class WordAlgo extends Page {
                         </p>
                     </div>
                     <h3>Materials</h3>
-                    <p>This project was developped with Python and Numpy.</p>
+                    <p>This project was developped with Python and Numpy in the context of a school project.</p>
                     <a href="https://github.com/jessicach4n/ChanJessica_PerezSebastian" target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} size="lg"/>
                     </a>

@@ -14,10 +14,25 @@ export class Design extends Component {
                         backgroundImage="assets/denis-malo5.jpg"
                         tags={myConstants.SCREENPRINTING_TAGS} />
                 </Link>
-                <Link to={'/typomanie'}>
-                    <Card projectName="Typomanie"
+                <Link to={'/typomania'}>
+                    <Card projectName="Typomania"
                         backgroundImage="assets/typomanie1.jpg"
                         tags={myConstants.TYPOMANIE_TAGS} />
+                </Link>
+                <Link to={'/ridm'}>
+                    <Card projectName="RIDM"
+                        backgroundImage="assets/RIDM-1.jpg"
+                        tags={myConstants.RIDM_TAGS} />
+                </Link>
+                <Link to={'/media-solutions'}>
+                    <Card projectName="Media Solutions"
+                        backgroundImage="assets/solutionmedia1.jpg"
+                        tags={myConstants.SOLUTION_MEDIA_TAGS} />
+                </Link>
+                <Link to={'/motion-design'}>
+                    <Card projectName="Motion Design"
+                        backgroundImage="assets/motion-design.jpg"
+                        tags={myConstants.MOTION_TAGS} />
                 </Link>
                 
             </div>

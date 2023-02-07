@@ -1,19 +1,21 @@
 import React from "react";
 import '../../css/projects.css'
 import { Page } from "./Page";
+import { Tags } from "../projects/Tags";
+import * as myConstants from '../../constants'
 
 export class Typomanie extends Page {
 
     render() {
         return (
             <section className="content">
+                <Tags tags={myConstants.TYPOMANIE_TAGS} />
                 <div className="heading">
-                    <h1>Typomanie App Prototype</h1>
+                    <h1>Typomania App Prototype</h1>
                     <a href="https://xd.adobe.com/view/0736f4fa-9613-4a98-b6ab-17eeb820c5ee-5265/?hints=off"
                             target='_blank' rel="noreferrer" className="decorated-link">
                             Play online
                     </a>
-                    <img src="assets/typomanieQR.png" className="qr"></img>
                 </div>
                 <div className="two-column">
                     <img src="assets/typomanie1.jpg" alt="Multiple screens from the game."></img>
@@ -37,7 +39,7 @@ export class Typomanie extends Page {
                     </p>
                 </div>
                 <h3>Materials</h3>
-                <p>This project was developped with Adobe XD and Illustrator</p>
+                <p>This project was developped with Adobe XD and Illustrator in the context of a school project.</p>
                 
             </section>
         );
