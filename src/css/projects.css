@@ -33,6 +33,9 @@ span {
 
 .project {
     margin-top: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
 }
 
 .card {
@@ -91,7 +94,7 @@ span {
 /******* Project description pages *******/
 
 .content {
-    margin: 4vw 10vw;
+    margin: 4vw 6vw;
 }
 
 .content div.heading {
@@ -175,10 +178,16 @@ video.govid {
     background-color: var(--main-light-color);
 }
 
-.column {
+.three-column {
     display: grid;
     gap: 1vw;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.two-column {
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .unity {
@@ -188,4 +197,10 @@ video.govid {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.qr {
+    width: 6vw;
+    height: auto;
+    mix-blend-mode: multiply;
 }

@@ -8,6 +8,8 @@ import { RadishParty } from './features/pages/RadishParty';
 import { GoApp } from './features/pages/GoApp';
 import { ScreenPrinting } from './features/pages/ScreenPrinting';
 import { RadishPartyPlay } from './features/pages/RadishPartyPlay';
+import { WordAlgo } from './features/pages/WordAlgo';
+import { Typomanie } from './features/pages/Typomanie';
 
 class App extends Component {
   
@@ -21,7 +23,9 @@ class App extends Component {
           <Route path="radish-party" element={<RadishParty/>} />
           <Route path="play-radish-party" element={<RadishPartyPlay/>} />
           <Route path="123go" element={<GoApp/>} />
+          <Route path="word-co-occurrence-algorithm" element={<WordAlgo/>} />
           <Route path="screen-printing" element={<ScreenPrinting/>} />
+          <Route path="typomanie" element={<Typomanie/>} />
   
           
         </Route>

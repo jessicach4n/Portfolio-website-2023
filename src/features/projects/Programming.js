@@ -24,6 +24,11 @@ export class Programming extends Component {
                         backgroundImage="assets/123go.png"
                         tags={myConstants.GO_TAGS} />
                 </Link>
+                <Link to={'/word-co-occurrence-algorithm'}>
+                    <Card projectName="Word co-occurrence algorithm"
+                            backgroundImage=""
+                            tags={myConstants.WORDCO_TAGS} />
+                </Link>
 
             </div>
         );

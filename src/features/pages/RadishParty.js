@@ -19,7 +19,7 @@ export class RadishParty extends Page {
                     </Link>
                 </div>
                 <img width="1200px" height='800px' src="assets/radish-mockup.jpg"
-                    alt="Multiple pages appearing on the Weather Art Generator website." />
+                    alt="Multiple scenes from the game displayed on a computer monitor." />
                 <h2>The project</h2>
                 <div className="two-columns">
                     <p>

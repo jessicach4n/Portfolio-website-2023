@@ -8,7 +8,7 @@ export class ScreenPrinting extends Page {
         return (
             <section className="content">
                 <h1>Exhibition poster</h1>
-                <div className="column">
+                <div className="three-column">
                     <img src="assets/expo1.jpg" alt="Poster of a colorful monster wearing a graduation hat drooling over coffee."></img>
                     <img src="assets/expo2.jpg" alt="Colorful monster illustration close-up"></img>
                     <img src="assets/expo3.jpg" alt="Close-up of the texts"></img>
@@ -23,7 +23,7 @@ export class ScreenPrinting extends Page {
                 
                 
                 <h1>Atelier Denis Malo</h1>
-                <div className="column">
+                <div className="three-column">
                     <img src="assets/denis-malo1.jpg" alt="Poster with clouds and a dragon wrapped around mountains."></img>
                     <img src="assets/denis-malo2.jpg" alt="Poster with clouds and a dragon wrapped around mountains." ></img>
                     <img src="assets/denis-malo3.jpg" alt="Poster with clouds and a dragon wrapped around mountains."></img>
@@ -46,7 +46,7 @@ export class ScreenPrinting extends Page {
 
              
                 <h1>A zine of classical portraits</h1>
-                <div className="column">
+                <div className="three-column">
                     <img src="assets/zine1.jpg" alt="Content of the zine."></img>
                     <img src="assets/zine2.jpg" alt="Content of the zine."></img>
                     <img src="assets/zine3.jpg" alt="Content of the zine."></img>
