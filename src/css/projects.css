@@ -71,6 +71,10 @@ span {
 
 /******* About section **********/
 
+#section-about {
+    min-height: 100vh;
+}
+
 .about-content {
     margin: 4vw 8vw 0;
     line-height: 1.6vw;
@@ -88,6 +92,10 @@ span {
 }
 
 /******* Contact section **********/
+
+#section-contact {
+    min-height: 100vh;
+}
 
 .contact-content {
     margin: 4vw 8vw 0;
