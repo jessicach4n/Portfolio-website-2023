@@ -91,6 +91,10 @@ span {
     border-radius: 20px;
 }
 
+.about-content div h2 {
+    margin-bottom: 1vw;
+}
+
 /******* Contact section **********/
 
 #section-contact {
@@ -103,7 +107,8 @@ span {
 }
 
 .contact-content a {
-    font-size: 1.6vw;
+    text-transform: lowercase;
+    font-size: 1.4vw;
     border-bottom: 2px solid var(--main-accent-color);
 }
 

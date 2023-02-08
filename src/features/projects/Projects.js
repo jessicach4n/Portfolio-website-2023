@@ -37,7 +37,6 @@ export class Projects extends Component {
                         </button>
                     </div>
                 </div>
-                
                 {this.state.viewing}
             </section>
         );
