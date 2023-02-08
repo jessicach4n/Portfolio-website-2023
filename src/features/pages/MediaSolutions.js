@@ -32,7 +32,7 @@ export class MediaSolutions extends Page {
                 <h3>Materials</h3>
                 <p>This project was developped with Adobe XD, AfterEffects and Illustrator in the context of a school project.</p>
                 <h3>Attributions</h3>
-                <a href="https://solutionsmedia.cbcrc.ca/" className="doc">Media Solutions</a>
+                <a href="https://solutionsmedia.cbcrc.ca/" className="doc" target='_blank' rel="noreferrer">Media Solutions</a>
                 <h2>Video</h2>
                 <video className="media" src="assets/solutionmedia.mp4" poster="assets/solutionmedia-poster.jpg" width="1000px" height="auto" controls></video>
             </section>

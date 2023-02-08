@@ -21,7 +21,7 @@ export class MotionDesign extends Page {
                 <h3>Materials</h3>
                 <p>This project was developped with AfterEffects and Illustrator in the context of a school project.</p>
                 <h3>Attributions</h3>
-                <p><a className="doc" href="https://urbania.ca/">Urbania</a> and <a className="doc" href="https://www.fondsftq.com/">Fonds de solidarité FTQ</a></p>
+                <p><a className="doc" href="https://urbania.ca/" target='_blank' rel="noreferrer">Urbania</a> and <a className="doc" target='_blank' rel="noreferrer" href="https://www.fondsftq.com/">Fonds de solidarité FTQ</a></p>
                 <h2>Video</h2>
                 <video className="media" src="assets/motion-design.mp4" poster="assets/motion-design-poster.jpg" width="1000px" height="auto" controls></video>
             </section>
