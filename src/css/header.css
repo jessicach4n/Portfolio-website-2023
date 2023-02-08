@@ -17,7 +17,7 @@ li {
 } 
 
 li:hover {
-  color: white;
+  color: #ff1c3e73;;
   transition: color 0.2s;
 }
 
