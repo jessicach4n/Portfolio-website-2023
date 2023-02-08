@@ -20,9 +20,8 @@ const PHOTOSHOP = 'Photoshop';
 const INDESIGN = 'InDesign';
 const FRESCO = 'Fresco';
 const ADVERTISING = 'Advertising';
-const EDITORIAL = 'Editorial';
 const AFTEREFFECTS = 'AfterEffects';
-
+const PACKAGING = 'Packaging';
 
 export const DESIGN = 'Graphic Design';
 export const PROGRAMMING = 'Programming';
@@ -36,3 +35,4 @@ export const TYPOMANIE_TAGS = [DESIGN, PROTOTYPING, ADOBEXD, ILLUSTRATOR];
 export const RIDM_TAGS = [DESIGN, ADVERTISING, INDESIGN, ILLUSTRATOR, PHOTOSHOP, FRESCO];
 export const SOLUTION_MEDIA_TAGS = [DESIGN, ADOBEXD, AFTEREFFECTS, ILLUSTRATOR];
 export const MOTION_TAGS = [DESIGN, AFTEREFFECTS, ILLUSTRATOR];
+export const NEWCASTLE_TAGS = [DESIGN, PACKAGING, ILLUSTRATOR, PHOTOSHOP];

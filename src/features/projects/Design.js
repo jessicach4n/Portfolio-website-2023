@@ -34,6 +34,11 @@ export class Design extends Component {
                         backgroundImage="assets/motion-design.jpg"
                         tags={myConstants.MOTION_TAGS} />
                 </Link>
+                <Link to={'/new-castle'}>
+                    <Card projectName="Newcastle Brown Ale Packaging"
+                        backgroundImage="assets/newcastle1.jpg"
+                        tags={myConstants.NEWCASTLE_TAGS} />
+                </Link>
                 
             </div>
         );

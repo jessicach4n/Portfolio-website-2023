@@ -36,7 +36,7 @@ span {
 }
 
 .project {
-    margin-top: 4vw;
+    margin-top: 6vw;
     margin-left: auto;
     margin-right: auto;
     max-width: 1100px;
@@ -59,8 +59,14 @@ span {
 }
 
 .card h2 {
+    height: inherit;
     background-color: #4747476e;
     border-radius: inherit;
+}
+
+.card h2:hover {
+    font-size: 2.8vw;
+    transition: font-size 0.4s;
 }
 
 /******* About section **********/
@@ -177,6 +183,12 @@ video.govid {
     height: auto;
     border-radius: 16px;
     margin-left: 2vw;
+}
+
+video.media {
+    width: 100%;
+    height: auto;
+
 }
 
 .play {

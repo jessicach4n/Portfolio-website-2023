@@ -16,8 +16,19 @@ li {
   padding: 1vw 2vw;
 } 
 
+li:hover {
+  color: white;
+  transition: color 0.2s;
+}
+
 button {
   cursor: pointer;
+}
+
+#section-projects button:hover{
+  background-color: var(--main-accent-color);
+  color: white;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 aside {

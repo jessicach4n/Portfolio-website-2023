@@ -11,6 +11,9 @@ import { RadishPartyPlay } from './features/pages/RadishPartyPlay';
 import { WordAlgo } from './features/pages/WordAlgo';
 import { Typomanie } from './features/pages/Typomanie';
 import { RIDM } from './features/pages/RIDM';
+import { MotionDesign } from './features/pages/MotionDesign';
+import { MediaSolutions } from './features/pages/MediaSolutions';
+import { Newcastle } from './features/pages/Newcastle';
 
 class App extends Component {
   
@@ -28,8 +31,10 @@ class App extends Component {
           <Route path="screen-printing" element={<ScreenPrinting/>} />
           <Route path="typomania" element={<Typomanie/>} />
           <Route path="ridm" element={<RIDM/>} />
-          
-  
+          <Route path="motion-design" element={<MotionDesign/>} />
+          <Route path="media-solutions" element={<MediaSolutions/>} />
+          <Route path="new-castle" element={<Newcastle/>} />
+
           
         </Route>
       </Routes>
