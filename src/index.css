@@ -44,7 +44,7 @@ body {
 
 .title {
   background-color: white;
-  border-radius: 6vw;
+  border-radius: 1.2vw 4vw ;
   height: 8vw;
   width: fit-content;
   padding: 1vw 4vw 0 18vw;

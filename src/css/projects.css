@@ -1,7 +1,3 @@
-.tags {
-    margin-left: -0.5vw;
-}
-
 /******* Home page project section *******/
 
 section {
@@ -20,7 +16,7 @@ section .heading {
     text-transform: capitalize;
     padding: 1vw 2vw;
     border: 2px solid var(--main-accent-color);
-    border-radius: 2vw;
+    border-radius: 1.8vw 0.8vw ;
     margin-left: 1vw;
     font-size: 1.4vw;
     cursor: pointer;
@@ -30,7 +26,7 @@ span {
     font-family: var(--display-font);
     padding: 0.4vw 0.8vw;
     border: 2px solid white;
-    border-radius: 100px;
+    border-radius: 1.2vw 0.6vw;
     margin-right: 1vw;
     text-transform: capitalize;
 }
@@ -48,7 +44,7 @@ span {
     background-color: var(--main-accent-color);
     height: 8vw;
     width: auto;
-    border-radius: 10px;
+    border-radius: 0.8vw 2vw;
     text-align: center;
     line-height: 8vw;
     color: white;
@@ -88,7 +84,7 @@ span {
 .about-content img {
     width: 20vw;
     height: auto;
-    border-radius: 20px;
+    border-radius: 1vw 3vw;
 }
 
 .about-content div h2 {
@@ -120,6 +116,7 @@ article {
 
 .content {
     margin: 4vw 6vw;
+    border-radius: 1vw;
 }
 
 .content div.heading {
@@ -131,7 +128,7 @@ article {
 .decorated-link {
     margin-left: 2vw;
     border: 2px solid var(--main-accent-color);
-    border-radius: 2vw;
+    border-radius: 0.8vw 1.8vw;
     height: fit-content;
     padding: 1vw 2vw;
 }
