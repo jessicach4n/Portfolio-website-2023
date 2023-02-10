@@ -12,7 +12,7 @@ export class About extends Component {
                 </div>
                 <div className="flex-content about-content">
                     <div>
-                        <h2>Things you should know</h2>
+                        <h2>Things you should know.</h2>
                         <p>
                             I learned the fundamentals of web design during my three years of study in graphic design. 
                             After graduation, I made the decision to continue along this route and enrolled in a rigorous 
