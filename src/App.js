@@ -14,6 +14,7 @@ import { RIDM } from './features/pages/RIDM';
 import { MotionDesign } from './features/pages/MotionDesign';
 import { MediaSolutions } from './features/pages/MediaSolutions';
 import { Newcastle } from './features/pages/Newcastle';
+import { NotFound } from './features/pages/NotFound';
 
 class App extends Component {
   
@@ -34,7 +35,7 @@ class App extends Component {
           <Route path="motion-design" element={<MotionDesign/>} />
           <Route path="media-solutions" element={<MediaSolutions/>} />
           <Route path="new-castle" element={<Newcastle/>} />
-
+          <Route path="*" element={<NotFound/>} />
           
         </Route>
       </Routes>

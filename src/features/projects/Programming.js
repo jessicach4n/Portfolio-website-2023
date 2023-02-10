@@ -21,18 +21,13 @@ export class Programming extends Component {
                 </Link>
                 <Link to={'/123go'}>
                     <Card projectName="Mobile games for kids"
-                        backgroundImage="assets/123go.png"
+                        backgroundImage="assets/123go.jpg"
                         tags={myConstants.GO_TAGS} />
                 </Link>
                 <Link to={'/word-co-occurrence-algorithm'}>
                     <Card projectName="Word co-occurrence algorithm"
                             backgroundImage=""
                             tags={myConstants.WORDCO_TAGS} />
-                </Link>
-                <Link to={'/web-chatroom'}>
-                    <Card projectName="Chatroom"
-                            backgroundImage=""
-                            tags={myConstants.CHATROOM_TAGS} />
                 </Link>
             </div>
         );
