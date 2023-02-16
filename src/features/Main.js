@@ -15,9 +15,6 @@ export class Main extends Component {
                 <Projects/>
                 <About/>
                 <Contact/>
-                <footer>
-                    <p>All rights reserved © Jessica Chan | 2023</p>
-                </footer>
             </div>
         );
     }

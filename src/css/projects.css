@@ -230,3 +230,20 @@ video.media {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/******* Not found **********/
+
+.notfound {
+    text-align: center;
+    min-height: 75vh;
+}
+
+.notfound button {
+    font-size: 1.2vw;
+    padding: 1vw 2vw;
+    border: 4px solid white;
+    border-radius: 2vw;
+    margin-top: 5vw;
+    width: 15vw;
+    height: 4vw;
+}

@@ -12,9 +12,13 @@ export class NotFound extends Page {
 
     render() {
         return (
-            <section className="content">
+            <section className="content notfound">
                 <h1>Error 404 - Looks like you got lost...</h1>
-
+                <Link to={'/'}>
+                    <button>
+                        Go to home
+                    </button>
+                </Link>
             </section>
 
 

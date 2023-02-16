@@ -4,7 +4,6 @@ import { Page } from "./Page";
 import RadishWebGL from "./RadishWebGL";
 
 export class RadishPartyPlay extends Page {
-
     render() {
         return (
             <div className="play">

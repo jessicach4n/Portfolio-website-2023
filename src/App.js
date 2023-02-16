@@ -17,29 +17,32 @@ import { Newcastle } from './features/pages/Newcastle';
 import { NotFound } from './features/pages/NotFound';
 
 class App extends Component {
-  
+
   render() {
     return (
       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Nav />}>
-          <Route index element={<Main/>} />
-          <Route path="weather-art-generator" element={<GenArt/>} />
-          <Route path="radish-party" element={<RadishParty/>} />
-          <Route path="play-radish-party" element={<RadishPartyPlay/>} />
-          <Route path="123go" element={<GoApp/>} />
-          <Route path="word-co-occurrence-algorithm" element={<WordAlgo/>} />
-          <Route path="screen-printing" element={<ScreenPrinting/>} />
-          <Route path="typomania" element={<Typomanie/>} />
-          <Route path="ridm" element={<RIDM/>} />
-          <Route path="motion-design" element={<MotionDesign/>} />
-          <Route path="media-solutions" element={<MediaSolutions/>} />
-          <Route path="new-castle" element={<Newcastle/>} />
-          <Route path="*" element={<NotFound/>} />
-          
-        </Route>
-      </Routes>
-    </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Nav />}>
+            <Route index element={<Main />} />
+            <Route path="weather-art-generator" element={<GenArt />} />
+            <Route path="radish-party" element={<RadishParty />} />
+            <Route path="play-radish-party" element={<RadishPartyPlay />} />
+            <Route path="123go" element={<GoApp />} />
+            <Route path="word-co-occurrence-algorithm" element={<WordAlgo />} />
+            <Route path="screen-printing" element={<ScreenPrinting />} />
+            <Route path="typomania" element={<Typomanie />} />
+            <Route path="ridm" element={<RIDM />} />
+            <Route path="motion-design" element={<MotionDesign />} />
+            <Route path="media-solutions" element={<MediaSolutions />} />
+            <Route path="new-castle" element={<Newcastle />} />
+            <Route path="*" element={<NotFound />} />
+
+          </Route>
+        </Routes>
+        <footer>
+          <p>All rights reserved © Jessica Chan | 2023</p>
+        </footer>
+      </BrowserRouter>
     );
   }
 }

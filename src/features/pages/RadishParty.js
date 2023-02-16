@@ -4,6 +4,8 @@ import { Tags } from "../projects/Tags";
 import * as myConstants from '../../constants'
 import { Link } from "react-router-dom";
 import { Page } from "./Page";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 export class RadishParty extends Page {
@@ -36,6 +38,9 @@ export class RadishParty extends Page {
                 <p>Free Pixel Food - Henry Software</p>
                 <p>Cartoon FX Remaster Free - Jean Moreno</p>
                 <p>Volumetric Lines - Johannes Unterguggenberger</p>
+                <a href="https://github.com/jessicach4n/DDJV_ProjetFinal" target='_blank' rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="lg" />
+                </a>
                 <h3>In collaboration with</h3>
                 <p>Sebastian Perez</p>
                 <h2>Video</h2>
