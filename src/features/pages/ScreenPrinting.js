@@ -11,23 +11,6 @@ export class ScreenPrinting extends Page {
             <section className="content">
                 <Tags tags={myConstants.SCREENPRINTING_TAGS}/>
                 <article>
-                    <h1>Exhibition poster</h1>
-                    <div className="three-column">
-                        <img src="assets/expo1.jpg" alt="Poster of a colorful monster wearing a graduation hat drooling over coffee."></img>
-                        <img src="assets/expo2.jpg" alt="Colorful monster illustration close-up"></img>
-                        <img src="assets/expo3.jpg" alt="Close-up of the texts"></img>
-                    </div>
-                    <h2>The project</h2>
-                    <div>
-                        <p>
-                            This poster announces the exhibition of the Cégep du Vieux Montréal 
-                            graphic design graduates in Winter 2021.
-                        </p>
-                    </div>
-                </article>
-                
-                <Tags tags={myConstants.SCREENPRINTING_TAGS}/>
-                <article>
                     <h1>Atelier Denis Malo</h1>
                     <div className="three-column">
                         <img src="assets/denis-malo1.jpg" alt="Poster with clouds and a dragon wrapped around mountains."></img>
@@ -47,6 +30,23 @@ export class ScreenPrinting extends Page {
                             Moreover, this poster was voted by the cohort of graphic design students of the 
                             Cégep du Vieux Montréal to be displayed at the entrance of the silkscreen workshop 
                             during the year 2021.
+                        </p>
+                    </div>
+                </article>
+                
+                <Tags tags={myConstants.SCREENPRINTING_TAGS}/>
+                <article>
+                    <h1>Exhibition poster</h1>
+                    <div className="three-column">
+                        <img src="assets/expo1.jpg" alt="Poster of a colorful monster wearing a graduation hat drooling over coffee."></img>
+                        <img src="assets/expo2.jpg" alt="Colorful monster illustration close-up"></img>
+                        <img src="assets/expo3.jpg" alt="Close-up of the texts"></img>
+                    </div>
+                    <h2>The project</h2>
+                    <div>
+                        <p>
+                            This poster announces the exhibition of the Cégep du Vieux Montréal 
+                            graphic design graduates in Winter 2021.
                         </p>
                     </div>
                 </article>
