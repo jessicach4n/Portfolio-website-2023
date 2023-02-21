@@ -11,7 +11,7 @@ export class MotionDesign extends Page {
             <section className="content">
                 <Tags tags={myConstants.MOTION_TAGS} />
                 <div className="heading">
-                    <h1>Employee or self-employed ?</h1>
+                    <h1>Employee or self-employed&#8201;?</h1>
                 </div>
                 <h2>The project</h2>
                 <p>

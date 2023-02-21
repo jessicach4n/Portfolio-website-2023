@@ -28,6 +28,9 @@ export class About extends Component {
                             In my spare time, I love going out to eat, but I also enjoy taking the time to cook at home. 
                             I also like drawing illustrations when the mood strikes, which I post to my Instagram feed.   
                         </p>
+                        <p>
+                            Thank you for taking an interest in me&#8201;!
+                        </p>
                     </div>
                     <img src="assets/aboutme.jpg" width="1000px" height="1412px" alt="My reflection on colorful glass art display during winter."/>
                 </div>

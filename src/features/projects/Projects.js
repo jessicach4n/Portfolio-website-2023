@@ -13,16 +13,33 @@ export class Projects extends Component {
                         viewing: <Programming/>
                     };
         this.toggleProjectView = this.toggleProjectView.bind(this);
+        this.stateSetter = this.stateSetter.bind(this);
+    }
+
+    componentDidMount() {
+        let type = window.sessionStorage.getItem('type');
+        if (type != null) {
+            if (type === myConstants.PROGRAMMING) {
+                this.stateSetter(<Programming/>, type)
+            }
+            else {
+                this.stateSetter(<Design/>, type)
+            }
+        }
+    }
+
+    stateSetter(viewing, type) {
+        this.setState({viewing: viewing});
+        this.setState({type: type});
+        window.sessionStorage.setItem('type', type);
     }
 
     toggleProjectView() {
         if (this.state.type === myConstants.PROGRAMMING) {
-            this.setState({viewing: <Design/>});
-            this.setState({type: myConstants.DESIGN});
+            this.stateSetter(<Design/>, myConstants.DESIGN);
         }
         else {
-            this.setState({viewing: <Programming/>})
-            this.setState({type: myConstants.PROGRAMMING});
+            this.stateSetter(<Programming/>, myConstants.PROGRAMMING);
         }
     }
 
