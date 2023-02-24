@@ -21,7 +21,7 @@ export class About extends Component {
                             from this training.     
                         </p>
                         <p>
-                            Today, I'd like to learn more about React, experiment with React Native, understand Three.js, 
+                            Today, I'd like to experiment more about React, learn about interactive design, work with Three.js, 
                             try 3D modeling and dive into the field of UX/UI design, just to name a few.
                         </p>
                         <p>
