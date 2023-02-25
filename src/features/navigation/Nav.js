@@ -46,10 +46,14 @@ export class Nav extends Component {
                         <a href="https://www.instagram.com/stylo.mangue/" target="_blank" rel="noreferrer">Illustrations</a>
                     </li>
                     <li>
-                        <button onClick={this.handleScrollToAbout}>About me</button>
+                        <Link to={'/'}>
+                            <button onClick={this.handleScrollToAbout}>About me</button>
+                        </Link>
                     </li>
                     <li>
-                        <button onClick={this.handleScrollToContact}>Contact me</button>
+                        <Link to={'/'}>
+                            <button onClick={this.handleScrollToContact}>Contact me</button>
+                        </Link>
                     </li>
                 </ul>
             </nav>
