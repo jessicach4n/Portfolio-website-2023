@@ -17,7 +17,7 @@ export class RadishParty extends Page {
                 <div className="heading">
                     <h1>Radish Party</h1>
                     <Link to={'/play-radish-party'}>
-                        <button className="decorated-link">Play online</button>
+                        <button className="decorated-link play-online">Play online</button>
                     </Link>
                 </div>
                 <img width="1200px" height='800px' src="assets/radish-mockup.jpg"

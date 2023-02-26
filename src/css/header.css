@@ -45,7 +45,25 @@ aside ul li {
 }
 
 @media screen and (min-width:681px) and (max-width: 1024px) { 
-	
+	nav {
+    height: 6vw;
+  }
+
+  nav ul li button, nav ul li a {
+    font-size: 1.8vw;
+  } 
+
+  aside {
+    top: 70%;
+  }
+
+  aside ul li {
+    padding: 2vw 1.2vw;
+  }
+
+  aside ul li a {
+    font-size: 1.8vw;
+  }
 }
 
 @media screen and (max-width: 680px) { 
