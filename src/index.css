@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
   --main-dark-color : #000000;
   --main-light-color : #FAE4E8;
@@ -61,4 +63,24 @@ footer {
   text-align: center;
   padding: 0.6vw 0 1vw;
  
+}
+
+@media screen and (min-width:681px) and (max-width: 1024px) { 
+	
+}
+
+@media screen and (max-width: 680px) { 
+  .title {
+    height: 14vw;
+    border-radius: 3vw 4vw;
+  }
+
+  .title h1 {
+    margin-top: -1vw;
+  }
+
+  footer p {
+    font-size: 2vw;
+  }
+  
 }

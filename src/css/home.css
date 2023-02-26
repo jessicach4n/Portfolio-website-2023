@@ -22,3 +22,18 @@ h1 {
     text-transform: capitalize;
 }
 
+@media screen and (min-width:681px) and (max-width: 1024px) { 
+	
+}
+
+@media screen and (max-width: 680px) { 
+    h1 {
+        font-size: 6vw;
+        line-height: 14vw;
+    }
+    .work-title {
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 90vw;
+    }
+}
