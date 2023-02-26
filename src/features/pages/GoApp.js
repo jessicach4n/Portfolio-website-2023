@@ -18,9 +18,28 @@ export class GoApp extends Page {
                     <h2>The project</h2>
                     <div>
                         <p>
-                            This application is made for children and their parents for an event in the park where they must hunt 
-                            for QR codes using a smartphone. It has physical activities and two educational games with two distinct 
-                            themes: farm animals and the seasons of the year.
+                            This application is designed for children and their parents for an event in the park where they must 
+                            hunt for QR codes using a smartphone. When a QR code is found, the participants can scan it and unlock 
+                            one of two mobile games. 
+                        </p>
+                        <p>
+                            The first game consists of counting one of the three animals (cow, pig or duck) as they fall to the bottom 
+                            of the screen using the plus and minus buttons. The goal of this game is the teach children how to count and 
+                            familiarize them with associating the right animal depiction to the word. 
+                        </p>
+                        <p>
+                            In the second game, the child uses their finger to drag and drop the right words (Summer, Spring, Fall and Winter) 
+                            to the right image best representing the season. This game teaches about the seasons of the year by allowing 
+                            them to drag around the words as much as they want until the correct answers are found.
+                        </p>
+                        <p>
+                            At the completion of each game, a dialog box with the iconography of a certain physical exercise is shown on the screen. 
+                            As part of the activities, the parent and their child are encouraged to perform the exercise to promote healthy habits 
+                            in an entertaining way.
+                        </p>
+                        <p>
+                            When both games are completed, a new dialog box will appear congratulating the participants on their success in completing 
+                            the QR hunt.
                         </p>
                     </div>
                     <h3>Materials</h3>
