@@ -25,10 +25,9 @@ export class RadishParty extends Page {
                 <h2>The project</h2>
                 <div className="two-columns">
                     <p>
-                        In the single-player platformer Radish Party, the player must collect all five pies on
-                        the map to assist Mr. Radish in getting to the portals that are blocked by a bright
-                        ray that emerges from a bottle. In order to survive the game, the player must evade their deadly foe,
-                        Mr. Bunny, and his carrot projectiles.
+                        In the single-player platformer Radish Party, the player must collect all five pies on the map to assist 
+                        Mr. Radish in getting to the portals that are blocked by a bright ray that emerges from a bottle. In order 
+                        to survive the game, the player must evade their deadly foe, Mr. Bunny, and his carrot projectiles. 
                     </p>
                 </div>
                 <h3>Materials</h3>

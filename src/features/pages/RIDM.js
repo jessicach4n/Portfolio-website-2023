@@ -33,6 +33,8 @@ export class RIDM extends Page {
                 </div>
                 <h3>Materials</h3>
                 <p>This project was developped with Adobe Fresco, Illustrator, InDesign and Photoshop in the context of a school project.</p>
+                <h3>Attributions</h3>
+                <a href="https://ridm.ca/en" className="doc" target='_blank' rel="noreferrer">Montreal International Documentary Festival</a>
                 <h3>Sketches</h3>
                 <div className="two-column">
                     <img src="assets/RIDM-4.jpg" alt="Poster sketches of RIDM 2021 festival."></img>
