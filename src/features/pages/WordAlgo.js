@@ -18,7 +18,7 @@ export class WordAlgo extends Page {
                     <h2>The project</h2>
                     <div className="two-columns">
                         <p>
-                            The project was done in three versions. In this iteration, we use a database to store the data collected in the 
+                            The project was done in three versions. In the iteration presented here, we used a database to store the data collected in the 
                             first version of the project by comparing words near each other in a text. With a database, we can collect information 
                             from multiple texts to train the algorithm and achieve more accurate results.
                         </p>
@@ -28,8 +28,8 @@ export class WordAlgo extends Page {
                             verbose argument that displays the time needed to perform the training or the search.
                         </p>
                         <p>
-                            To start the program, first, you need to create the database by running the <code>mainBD.py</code> program. To calculate the 
-                            score, the user can choose from three different methods of calculations with varying scoring results: scalar 
+                            To start the program, first you need to create the database by running the <code>mainBD.py</code> program. To calculate the 
+                            score, you can choose from three different methods of calculations with varying scoring results: scalar 
                             product, least-squares or city-block.
                         </p>
                     </div>

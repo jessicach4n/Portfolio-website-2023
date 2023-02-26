@@ -27,7 +27,7 @@ export class ScreenPrinting extends Page {
                             poster promoting the Atelier Denis Malo.
                         </p>
                         <p>
-                            Moreover, this poster was voted by the cohort of graphic design students of the 
+                            Moreover, my poster was voted by the cohort of graphic design students of the 
                             Cégep du Vieux Montréal to be displayed at the entrance of the silkscreen workshop 
                             during the year 2021.
                         </p>

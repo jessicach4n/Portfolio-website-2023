@@ -26,7 +26,7 @@ export class RIDM extends Page {
                     togetherness and community, which are values at the heart of the organization.
                     </p>
                     <p>
-                    The chosen concept illustrates elongated arms, intertwined with each other and holding each 
+                    The chosen concept illustrates elongated arms intertwined with each other and holding each 
                     other by the elbows to symbolize, among other things, the guests and their interactions during 
                     the gathering.
                     </p>

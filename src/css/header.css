@@ -62,16 +62,7 @@ aside ul li {
   }
 
   aside {
-    margin-right: 1vw;
-    top: 83%;
-  }
-
-  aside ul li {
-    padding-top: 4vw;
-  }
-
-  aside ul li a {
-    font-size: 3vw;
+    display: none;
   }
 
 

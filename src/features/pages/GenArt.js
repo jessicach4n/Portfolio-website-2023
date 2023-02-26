@@ -36,14 +36,14 @@ export class GenArt extends Page {
                         based on internal calculations, we determine which choice we use.
                     </p>
                     <p>
-                        In the current state of the project, we use atmospheric pressure at sea level in hectopascals. We have 
-                        normalized this measurement between 0 and 1 with a lower and upper bound. The lower bound is 870 hPA the 
-                        lowest measurement found on Earth, it exists in tornadoes and tropical cyclones. The upper bound is 1085 hPA 
-                        because the highest measurement on Earth that has been recorded to date is 1083.8 hPA in Russia in 1961.
+                        In the current state of the project, we used atmospheric pressure at sea level in hectopascals (hPA). We have normalized
+                        this measurement between 0 and 1 with a lower and upper bounds. The lower bound is 870 hPA the lowest
+                        measurement found on Earth, found in tornadoes and tropical cyclones. The upper bound is 1085 hPA, round-up
+                        of the highest measurement on Earth of 1083.8 hPA, recorded in Russia in 1961.
                     </p>
                     <p>
                         We manipulate this result to influence a feature of each currently available animation: the cycle of the number 
-                        of members in the Bézier curve animation; the number of rotating lines in the cylindrical animation and the chance 
+                        of members in the Bézier curve animation, the number of rotating lines in the cylindrical animation and the chance 
                         of mutation in the polygon animation.
                     </p>
                     <p>

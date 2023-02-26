@@ -24,18 +24,18 @@ export class Typomanie extends Page {
                 <h2>The project</h2>
                 <div className="two-columns">
                     <p>
-                    The role of this mobile application is to diagnose in the user, typomania, 
-                    the fictitious syndrome of a graphic designer possessed by a fixation on typography.
+                        The role of this mobile application is to diagnose the user with typomania,  
+                        the fictitious syndrome of a graphic designer possessed by a fixation on typography. 
                     </p>
                     <p>
-                    Moreover, the game is designed to frustrate the user by inducing the effects of 
-                    typomania such as frustration and anger. While the player doesn’t admit that they are 
-                    suffering from the syndrome, the game will restart from the beginning. 
+                        Moreover, the game is designed to frustrate the user by inducing the effects  of typomania 
+                        such as frustration and anger. While the player doesn’t admit  that they are suffering from the syndrome, 
+                        the game will restart from the  beginning. 
                     </p>
                     <p>
-                    To further push the impression that the application is playing against the user, 
-                    the game is designed to glitch a few times by simulating the appearance of corrupted 
-                    pixels every 0.2 second.
+                        To further push the impression that the application is playing against the user, 
+                        the game is designed to glitch a few times by simulating the appearance of corrupted 
+                        pixels every 0.2 second.
                     </p>
                 </div>
                 <h3>Materials</h3>

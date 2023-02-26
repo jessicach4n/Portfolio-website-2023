@@ -24,12 +24,12 @@ export class GoApp extends Page {
                         </p>
                         <p>
                             The first game consists of counting one of the three animals (cow, pig or duck) as they fall to the bottom 
-                            of the screen using the plus and minus buttons. The goal of this game is the teach children how to count and 
+                            of the screen using the plus and minus buttons. The goal of this game is to teach children how to count and to
                             familiarize them with associating the right animal depiction to the word. 
                         </p>
                         <p>
-                            In the second game, the child uses their finger to drag and drop the right words (Summer, Spring, Fall and Winter) 
-                            to the right image best representing the season. This game teaches about the seasons of the year by allowing 
+                            In the second game, the child uses their finger to drag and drop the right words (Spring, Summer, Fall and Winter) 
+                            to the right image best representing the season. This game teaches the seasons of the year by allowing 
                             them to drag around the words as much as they want until the correct answers are found.
                         </p>
                         <p>
