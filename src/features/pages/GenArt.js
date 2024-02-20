@@ -55,7 +55,7 @@ export class GenArt extends Page {
                     </p>
                 </div>
                 <h3>Materials</h3>
-                <p>This web project was developped with Javascript, ReactJS, P5, PHP and PostgreSQL in the context of a school project..</p>
+                <p>This web project was developped with Javascript, ReactJS, P5, PHP and PostgreSQL in the context of a school project.</p>
                 <a href="https://github.com/jessicach4n/ProjetSynthese_A2022" target='_blank' rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} size="lg" />
                 </a>
