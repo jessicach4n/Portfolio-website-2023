@@ -17,6 +17,11 @@ import { Newcastle } from './features/pages/Newcastle';
 import { NotFound } from './features/pages/NotFound';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.date = new Date().getFullYear();
+}
 
   render() {
     return (
@@ -40,7 +45,7 @@ class App extends Component {
           </Route>
         </Routes>
         <footer>
-          <p>All rights reserved © Jessica Chan | 2023</p>
+          <p>All rights reserved © Jessica Chan | {this.date}</p>
         </footer>
       </BrowserRouter>
     );
