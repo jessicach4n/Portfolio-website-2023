@@ -6,8 +6,8 @@
   --main-accent-color : #E9586D;
   --font-weight-bold : 700;
   --font-weight-regular : 400;
-  --display-font : 'Lilita One', cursive;
-  --paragraph-font : 'Sen', sans-serif;
+  --display-font : 'DM Serif Text', cursive;
+  --paragraph-font : 'Lora', sans-serif;
 }
 
 * {
@@ -19,24 +19,23 @@
 
 ul, li, a, button {
   font-family: var(--display-font);
-  text-transform: uppercase;
   list-style-type: none;
   text-decoration: none;
   color: inherit;
   outline: none;
   border: none;
-  background-color: inherit;
-  font-size: 1vw;
+  background-color: transparent;
+  font-size: 0.8vw;
 }
 
 h1, h2, h3 {
   font-family: var(--display-font);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 
 }
 
 body {
-  font-size: 1.1vw;
+  font-size: 0.9vw;
   line-height: 1.4vw;
   color: var(--main-accent-color);
   font-family: var(--paragraph-font);
@@ -45,16 +44,7 @@ body {
 }
 
 .title {
-  background-color: white;
-  border-radius: 1.2vw 4vw ;
-  height: 8vw;
-  width: fit-content;
-  padding: 1vw 4vw 0 18vw;
-  margin-left: -15vw;
-}
 
-.title h1 {
-  text-transform: uppercase;
 }
 
 footer {
@@ -74,7 +64,6 @@ footer {
 @media screen and (max-width: 680px) { 
   .title {
     height: 14vw;
-    border-radius: 3vw 4vw;
   }
 
   .title h1 {

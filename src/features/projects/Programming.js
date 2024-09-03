@@ -8,7 +8,12 @@ export class Programming extends Component {
 
     render() {
         return (
-            <div>
+            <div className="card-container">
+                <Link to={'/game-for-seniors'}>
+                    <Card projectName="Game for Seniors"
+                        backgroundImage="assets/seniors3.jpg"
+                        tags={myConstants.SENIORS_TAGS} />
+                </Link>
                 <Link to={'/weather-art-generator'}>
                     <Card projectName="Weather Art Generator"
                         backgroundImage="assets/genart.png"

@@ -16,9 +16,8 @@ section .heading {
     text-transform: capitalize;
     padding: 1vw 2vw;
     border: 2px solid var(--main-accent-color);
-    border-radius: 1.8vw 0.8vw ;
     margin-left: 1vw;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     cursor: pointer;
 }
 
@@ -26,16 +25,20 @@ span {
     font-family: var(--display-font);
     padding: 0.4vw 0.8vw;
     border: 2px solid white;
-    border-radius: 1.2vw 0.6vw;
     margin-right: 1vw;
     text-transform: capitalize;
 }
 
 .project {
-    margin-top: 6vw;
+    margin-top: 2vw;
     margin-left: auto;
     margin-right: auto;
     max-width: 2000px;
+}
+
+.tags {
+    margin-top: 3vw;
+    text-align: center;
 }
 
 .card {
@@ -44,7 +47,6 @@ span {
     background-color: var(--main-accent-color);
     height: 8vw;
     width: auto;
-    border-radius: 0.8vw 2vw;
     text-align: center;
     line-height: 8vw;
     color: white;
@@ -54,15 +56,14 @@ span {
     background-position: center;
 }
 
+.card-container {
+    align-items: center;
+}
+
 .card h2 {
     height: inherit;
     background-color: #4747476e;
-    border-radius: inherit;
-}
-
-.card h2:hover {
-    font-size: 2.8vw;
-    transition: font-size 0.4s;
+    font-size: 2.3vw;
 }
 
 /******* About section **********/
@@ -72,19 +73,18 @@ span {
 }
 
 .about-content {
-    margin: 4vw 8vw 0;
+    margin: 2vw 0;
     line-height: 1.6vw;
 }
 
 .about-content p {
     margin-bottom: 0.8vw;
-    margin-right: 4vw;
+    margin-right: 10vw;
 }
 
 .about-content img {
     width: 20vw;
     height: auto;
-    border-radius: 1vw 3vw;
 }
 
 .about-content div h2 {
@@ -98,14 +98,18 @@ span {
 }
 
 .contact-content {
-    margin: 4vw 8vw 0;
+    margin: 1vw 0;
     line-height: 3vw;
 }
 
 .contact-content a {
     text-transform: lowercase;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     border-bottom: 2px solid var(--main-accent-color);
+}
+
+.contact-content a.linkedin {
+    border: none;
 }
 
 /******* Project description pages *******/
@@ -116,7 +120,6 @@ article {
 
 .content {
     margin: 4vw 6vw;
-    border-radius: 1vw;
 }
 
 .content div.heading {
@@ -127,10 +130,10 @@ article {
 
 .decorated-link {
     margin-left: 2vw;
-    border: 2px solid var(--main-accent-color);
-    border-radius: 0.8vw 1.8vw;
     height: fit-content;
     padding: 1vw 2vw;
+    font-size: 1.2vw;
+    background-color: white;
 }
 
 .content div button {
@@ -138,20 +141,20 @@ article {
 }
 
 .content h1 {
-    margin: 1vw 0;
+    margin: 2vw 0 0;
     text-transform: capitalize;
     line-height: 4vw;
 }
 
 .content h2 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 1.2vw;
     line-height: 1.4vw;
-    margin: 2vw 0 0.4vw 0;
+    margin: 1vw 0 0.4vw 0;
 }
 
 .content h3 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 1vw;
     line-height: 1.4vw;
     margin: 1.2vw 0 0.2vw 0;
@@ -163,7 +166,7 @@ article {
 }
 
 .content p {
-    font-size: 1.1vw;
+    font-size: 0.9vw;
     margin-bottom: 0.4vw;
 }
 
@@ -172,7 +175,7 @@ iframe {
 }
 
 img {
-    margin: 0.2vw 0 0 0;
+    margin: 1vw 0 0 0;
     width: 100%;
     height: auto;
 }
@@ -191,7 +194,6 @@ img {
 video.govid {
     width: 20vw;
     height: auto;
-    border-radius: 16px;
     margin-left: 2vw;
 }
 
@@ -242,7 +244,6 @@ video.media {
     font-size: 1.2vw;
     padding: 1vw 2vw;
     border: 4px solid white;
-    border-radius: 2vw;
     margin-top: 5vw;
     width: 15vw;
     height: 4vw;
@@ -286,7 +287,6 @@ video.media {
     .about-content img {
         width: 20vw;
         height: fit-content;
-        border-radius: 1vw 3vw;
     }
 
     .contact-content a {
@@ -341,7 +341,6 @@ video.media {
         width: 30vw;
         height: 10vw;
         font-size: 2.8vw;
-        border-radius: 3vw 1.8vw ;
     }
 
     span {
@@ -429,7 +428,6 @@ video.media {
         width: min-content;
         height: 10vw;
         font-size: 2.8vw;
-        border-radius: 3vw 1.8vw ;
         line-height: 3.6vw !important;
     }
 
@@ -445,7 +443,6 @@ video.media {
     video.govid {
         width: 60vw;
         height: auto;
-        border-radius: 16px;
         margin: 6vw 0 0 3vw;
     }
 }

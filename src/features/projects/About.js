@@ -8,25 +8,25 @@ export class About extends Component {
         return (
             <section id="section-about">
                 <div className="heading">
-                    <Title titlename="About me" />
+                    <Title titlename="A bit about me" />
                 </div>
                 <div className="flex-content about-content">
                     <div>
-                        <h2>Things you should know.</h2>
                         <p>
-                            I learned the fundamentals of web design during my three years of study in graphic design. 
+                            I learned web design during my three years of study in graphic design which opened my eyes to computer programming. 
                             After graduation, I made the decision to continue along this route and enrolled in a rigorous 
                             one and a half year program in computer science technology, where I gained knowledge and 
                             abilities that went beyond the Web. I learned a variety of programming languages and techniques 
                             from this training.     
                         </p>
                         <p>
-                            Today, I'd like to experiment more about React, learn about interactive design, work with Three.js, 
-                            try 3D modeling and dive into the field of UX/UI design, just to name a few.
+                            Today, I want to experiment more with React, learn about interactive design, work with Three.js, 
+                            do 3D modeling and dive into the field of UX/UI design. I found the perfect place to do this at Concordia University, 
+                            where I am currently pursuing a Bachelor of Computer Science in a Joint Mjor with Computation Arts.
                         </p>
                         <p>
-                            In my spare time, I love going out to eat, but I also enjoy taking the time to cook at home. 
-                            I also like drawing illustrations when the mood strikes, which I post to my Instagram feed.   
+                            In my spare time, I love exploring new restaurants, but I also enjoy the process of cooking at home. 
+                            When inspiration hits, I also like to draw and share my illustrations on my Instagram.  
                         </p>
                         <p>
                             Thank you for taking an interest in me&#8201;!
@@ -34,10 +34,6 @@ export class About extends Component {
                     </div>
                     <img src="assets/aboutme.jpg" width="1000px" height="1412px" alt="My reflection on colorful glass art display during winter."/>
                 </div>
-
-
-
-
             </section>
         );
     }

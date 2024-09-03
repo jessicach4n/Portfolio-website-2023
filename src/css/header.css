@@ -1,20 +1,35 @@
 nav {
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   display: flex;
   width: 100vw;
-  height: 4vw;
-  justify-content: space-around;
+  height: 2.5vw;
+  justify-content: space-between;
   align-items: center;
-  background-color: var(--main-light-color);
+  background-color: white;
   z-index: 1;
+  position: sticky;
 }
 
 li {
   display: inline-block;
-  padding: 1vw 2vw;
+  padding: 1vw 1.2vw;
 } 
+
+ul {
+  margin-left: 1vw;
+}
+
+ul.social {
+  margin-right: 2vw;
+}
+
+ul.social li {
+  padding: 1vw;
+}
+
+ul.social li a {
+  font-size: 0.6vw;
+}
 
 li:hover {
   color: #ff1c3e73;;
@@ -26,22 +41,9 @@ button {
 }
 
 #section-projects button:hover{
-  background-color: var(--main-accent-color);
   color: white;
+  border-color: white;
   transition: background-color 0.2s, color 0.2s;
-}
-
-aside {
-  width: fit-content;
-  height: auto;
-  position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translate(0, -50%);
-}
-
-aside ul li {
-  display: block;
 }
 
 @media screen and (min-width:681px) and (max-width: 1024px) { 

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import '../../css/projects.css';
 import { Title } from "../Title";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export class Contact extends Component {
 
@@ -11,9 +13,11 @@ export class Contact extends Component {
                     <Title titlename="Contact me" />
                 </div>
                 <div className="contact-content">
-                    <h2>How can I help you&#8201;?</h2>
-                    <p>If you would like to discuss about future projects, feel free to contact me through the following email address :</p>
                     <a href="mailto:jessicachan.graphicdesign@gmail.com.">jessicachan.graphicdesign@gmail.com</a>
+                    <br />
+                    <a className="linkedin" href="https://www.linkedin.com/in/jessica-chan-graphics/" target='_blank' rel="noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin} size="lg" />
+                    </a>
                 </div>
             </section>
         );

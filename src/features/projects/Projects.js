@@ -46,8 +46,9 @@ export class Projects extends Component {
     render() {
         return (
             <section id="section-projects">
+                {this.state.type}
                 <div className="heading">
-                    <Title titlename="My projects" />
+                    <Title titlename="My Projects" />
                     <div className="project-nav">
                         <button id="btn-toggle" onClick={this.toggleProjectView}>
                             View {this.state.type === myConstants.PROGRAMMING ? myConstants.DESIGN : myConstants.PROGRAMMING}

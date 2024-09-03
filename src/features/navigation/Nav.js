@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import '../../css/header.css'
 import { Outlet, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub, faInstagram, faBehance} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faInstagram, faBehance } from '@fortawesome/free-brands-svg-icons'
 
 export class Nav extends Component {
     constructor(props) {
@@ -35,55 +35,54 @@ export class Nav extends Component {
     render() {
         return (
             <>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to={'/'}>
-                            <button onClick={this.handleScrollToProjects}>My projects</button>
-                        </Link>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/stylo.mangue/" target="_blank" rel="noreferrer">Illustrations</a>
-                    </li>
-                    <li>
-                        <Link to={'/'}>
-                            <button onClick={this.handleScrollToAbout}>About me</button>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={'/'}>
-                            <button onClick={this.handleScrollToContact}>Contact me</button>
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
-            <aside>
+                <nav>
                     <ul>
                         <li>
+                            <Link to={'/'}>
+                                <button onClick={this.handleScrollToProjects}>My projects</button>
+                            </Link>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/stylo.mangue/" target="_blank" rel="noreferrer">Illustrations</a>
+                        </li>
+                        <li>
+                            <Link to={'/'}>
+                                <button onClick={this.handleScrollToAbout}>About me</button>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to={'/'}>
+                                <button onClick={this.handleScrollToContact}>Contact me</button>
+                            </Link>
+                        </li>
+                    </ul>
+
+                    <ul className="social">
+                        <li>
                             <a href="https://www.linkedin.com/in/jessica-chan-graphics/" target='_blank' rel="noreferrer">
-                                <FontAwesomeIcon icon={faLinkedin} size="lg"/>
+                                <FontAwesomeIcon icon={faLinkedin} size="lg" />
                             </a>
                         </li>
-                        <li>                            
+                        <li>
                             <a href="https://github.com/jessicach4n" target='_blank' rel="noreferrer">
-                                <FontAwesomeIcon icon={faGithub} size="lg"/>
+                                <FontAwesomeIcon icon={faGithub} size="lg" />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/jessechan.graphics/" target='_blank' rel="noreferrer">
-                                <FontAwesomeIcon icon={faInstagram} size="lg"/>
+                                <FontAwesomeIcon icon={faInstagram} size="lg" />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.behance.net/jessicachan5" target='_blank' rel="noreferrer">
-                                <FontAwesomeIcon icon={faBehance} size="lg"/>
+                                <FontAwesomeIcon icon={faBehance} size="lg" />
                             </a>
                         </li>
                     </ul>
-                </aside>
-            <Outlet />
+                </nav>
+                <Outlet />
             </>
-            
+
         );
     }
 }
