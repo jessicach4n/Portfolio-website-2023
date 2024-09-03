@@ -46,7 +46,7 @@ export class Projects extends Component {
     render() {
         return (
             <section id="section-projects">
-                {this.state.type}
+                <p>{this.state.type}</p>
                 <div className="heading">
                     <Title titlename="My Projects" />
                     <div className="project-nav">

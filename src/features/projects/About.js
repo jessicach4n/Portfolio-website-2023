@@ -29,6 +29,11 @@ export class About extends Component {
                             When inspiration hits, I also like to draw and share my illustrations on my Instagram.  
                         </p>
                         <p>
+                            I am a curious person who loves to learn and discover new things. I am always looking for new challenges 
+                            and opportunities to grow. I am passionate about technology and design, and I am always looking for ways to 
+                            combine the two to create something unique.
+                        </p>
+                        <p>
                             Thank you for taking an interest in me&#8201;!
                         </p>
                     </div>

@@ -10,6 +10,7 @@ import { GoApp } from './features/pages/GoApp';
 import { ScreenPrinting } from './features/pages/ScreenPrinting';
 import { RadishPartyPlay } from './features/pages/RadishPartyPlay';
 import { WordAlgo } from './features/pages/WordAlgo';
+import { VideoEditing} from './features/pages/VideoEditing';
 import { Typomanie } from './features/pages/Typomanie';
 import { RIDM } from './features/pages/RIDM';
 import { MotionDesign } from './features/pages/MotionDesign';
@@ -36,6 +37,7 @@ class App extends Component {
             <Route path="play-radish-party" element={<RadishPartyPlay />} />
             <Route path="123go" element={<GoApp />} />
             <Route path="word-co-occurrence-algorithm" element={<WordAlgo />} />
+            <Route path="video-editing" element={<VideoEditing />} />
             <Route path="screen-printing" element={<ScreenPrinting />} />
             <Route path="typomania" element={<Typomanie />} />
             <Route path="ridm" element={<RIDM />} />

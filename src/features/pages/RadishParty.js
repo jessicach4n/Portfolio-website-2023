@@ -17,13 +17,13 @@ export class RadishParty extends Page {
                 <div className="heading">
                     <h1>Radish Party</h1>
                     <Link to={'/play-radish-party'}>
-                        <button className="decorated-link play-online">Play online</button>
+                        <a className="decorated-link play-online">Play online</a>
                     </Link>
                 </div>
                 <img width="1200px" height='800px' src="assets/radish-mockup.jpg"
                     alt="Multiple scenes from the game displayed on a computer monitor." />
                 <h2>The project</h2>
-                <div className="two-columns">
+                <div>
                     <p>
                         In the single-player platformer Radish Party, the player must collect all five pies on the map to assist 
                         Mr. Radish in getting to the portals that are blocked by a bright ray that emerges from a bottle. In order 

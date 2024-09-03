@@ -18,7 +18,7 @@ export class RIDM extends Page {
                 </div>
 
                 <h2>The project</h2>
-                <div className="two-columns">
+                <div>
                     <p>
                     For this advertising project, I designed the visual identity of the Montreal International 
                     Documentary Festival for its 24th edition in 2021. Following a real meeting with the 

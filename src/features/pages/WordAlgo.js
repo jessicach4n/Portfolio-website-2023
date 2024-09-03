@@ -16,7 +16,7 @@ export class WordAlgo extends Page {
                     <Tags tags={myConstants.WORDCO_TAGS} />
                     <h1>Word Co-Occurrence Algorithm</h1>
                     <h2>The project</h2>
-                    <div className="two-columns">
+                    <div className="">
                         <p>
                             The project was done in three versions. In the iteration presented here, we used a database to store the data collected in the 
                             first version of the project by comparing words near each other in a text. With a database, we can collect information 

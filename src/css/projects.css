@@ -1,7 +1,7 @@
 /******* Home page project section *******/
 
 section {
-    padding: 8vw 10vw;
+    padding: 2vw 10vw;
     height: fit-content;
     background-color: var(--main-light-color);
 }
@@ -103,9 +103,8 @@ span {
 }
 
 .contact-content a {
-    text-transform: lowercase;
-    font-size: 1.2vw;
-    border-bottom: 2px solid var(--main-accent-color);
+    font-size: 1.2vw; 
+    margin-right: 1vw;
 }
 
 .contact-content a.linkedin {
@@ -160,15 +159,12 @@ article {
     margin: 1.2vw 0 0.2vw 0;
 }
 
-.two-columns {
-    column-count: 2;
-    column-gap: 2vw;
-}
-
 .content p {
     font-size: 0.9vw;
     margin-bottom: 0.4vw;
+    width: 40vw;
 }
+
 
 iframe {
     margin-top: 1vw;
@@ -322,6 +318,7 @@ video.media {
     .content p, .content a {
         font-size: 2vw;
         line-height: 4vw;
+        width: 100%;
     }
 
     .decorated-link {
@@ -338,7 +335,7 @@ video.media {
     }
 
     .project-nav button {
-        width: 30vw;
+        width: 35vw;
         height: 10vw;
         font-size: 2.8vw;
     }
@@ -358,9 +355,9 @@ video.media {
         width: auto;
         line-height: 14vw;
         font-size: 3.2vw;
-    }
+    } 
 
-    .card h2:hover {
+    .card h2 {
         font-size: 4.6vw;
     }
 
@@ -379,14 +376,19 @@ video.media {
         display: block;
     }
 
+    .about-content p{
+        display: block;
+        width: 100%;
+    }
+
     .about-content img {
         display: none;
     }
 
     .contact-content a {
-        margin-top: 2vw;
-        line-height: 10vw;
-        font-size: 3vw;
+        line-height: 16vw;
+        margin-right: 4vw;
+        font-size: 6vw;
     }
 
     .two-columns, .two-column, .three-column, .flex-content {
@@ -422,17 +424,26 @@ video.media {
     .content p, .content a {
         font-size: 3vw;
         line-height: 6vw;
+        width: 100%;
     }
 
-    .decorated-link {
+    section.content div.heading a.decorated-link {
+        margin: 2vw 0 2vw 0;
         width: min-content;
-        height: 10vw;
         font-size: 2.8vw;
         line-height: 3.6vw !important;
     }
 
+    .content img {
+        margin-top: 4vw;
+    }
+
     .play-online {
         display: none;
+    }
+
+    section.content div.heading {
+        display: block;
     }
 
     video.media, iframe {

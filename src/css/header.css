@@ -5,7 +5,7 @@ nav {
   height: 2.5vw;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: var(--main-light-color);
   z-index: 1;
   position: sticky;
 }
@@ -66,15 +66,20 @@ button {
   aside ul li a {
     font-size: 1.8vw;
   }
+
+  ul.social li a {
+    font-size: 1.8vw;
+  }
 }
 
 @media screen and (max-width: 680px) { 
   nav {
     height: 8vw;
+    justify-content: center;
   }
 
   nav ul li button, nav ul li a {
-    font-size: 2.4vw;
+    font-size: 2.8vw;
   } 
 
   nav li {
@@ -85,5 +90,7 @@ button {
     display: none;
   }
 
-
+  ul.social {
+    display: none;
+  }
 }

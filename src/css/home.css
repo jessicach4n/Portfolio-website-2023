@@ -1,12 +1,14 @@
 .home {
     /* height: 10vh;
     width: 100vw; */
-    /* background-color: white; */
-    border-bottom: solid 4px white;
+    background-color: white;
+    padding: 8vw 0;
 }
 
 .home-texts {
+    justify-content: center;
     text-align: center;
+    align-content: center;
     z-index: 1;
 }
 
@@ -31,6 +33,5 @@ h1 {
     .work-title {
         font-size: 3vw;
         line-height: 4vw;
-        width: 90vw;
     }
 }

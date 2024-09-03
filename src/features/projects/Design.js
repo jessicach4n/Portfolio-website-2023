@@ -9,6 +9,11 @@ export class Design extends Component {
     render() {
         return (
             <div>
+                <Link to={'/video-editing'}>
+                    <Card projectName="Video Editing"
+                        backgroundImage="assets/video-editing.jpg"
+                        tags={myConstants.VIDEO_TAGS} />
+                </Link>
                 <Link to={'/screen-printing'}>
                     <Card projectName="Screen Printing"
                         backgroundImage="assets/denis-malo5.jpg"

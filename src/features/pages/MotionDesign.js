@@ -16,7 +16,7 @@ export class MotionDesign extends Page {
                 <h2>The project</h2>
                 <p>
                     This project consists of designing an animation that supports the narrator and illustrates different 
-                    ideas to facilitate understanding. The audio was given along with the client’s mandate for students 
+                    ideas to facilitate understanding. The audio was given along with the client's mandate for students 
                     to create a storyboard that corresponds to the narration of the audio. Once approved, the student 
                     creates the animations using AfterEffects. 
                 </p>

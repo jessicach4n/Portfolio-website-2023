@@ -22,14 +22,14 @@ export class Typomanie extends Page {
                     <img src="assets/typomanie2.jpg" alt="Two screens from the game."></img>
                 </div>
                 <h2>The project</h2>
-                <div className="two-columns">
+                <div>
                     <p>
                         The role of this mobile application is to diagnose the user with typomania,  
                         the fictitious syndrome of a graphic designer possessed by a fixation on typography. 
                     </p>
                     <p>
                         Moreover, the game is designed to frustrate the user by inducing the effects  of typomania 
-                        such as frustration and anger. While the player doesn’t admit  that they are suffering from the syndrome, 
+                        such as frustration and anger. While the player doesn't admit  that they are suffering from the syndrome, 
                         the game will restart from the  beginning. 
                     </p>
                     <p>

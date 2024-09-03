@@ -22,6 +22,8 @@ const FRESCO = 'Fresco';
 const ADVERTISING = 'Advertising';
 const AFTEREFFECTS = 'AfterEffects';
 const PACKAGING = 'Packaging';
+const PREMIEREPRO = 'Premiere Pro';
+const AUDITION = 'Audition';
 
 export const DESIGN = 'Graphic Design';
 export const PROGRAMMING = 'Programming';
@@ -30,6 +32,7 @@ export const GENART_TAGS = [WEB, JAVASCRIPT, REACT, P5, POSTGRESQL, PHP];
 export const RADISH_TAGS = [UNITY, CS];
 export const GO_TAGS = [ANDROID, JAVA];
 export const WORDCO_TAGS = [PYTHON, NUMPY, TERMINAL, RESEARCH]; 
+export const VIDEO_TAGS = [PREMIEREPRO, AFTEREFFECTS, AUDITION];
 export const SCREENPRINTING_TAGS = [POSTER, ILLUSTRATOR, PHOTOSHOP, FRESCO];
 export const TYPOMANIE_TAGS = [PROTOTYPING, ADOBEXD, ILLUSTRATOR];
 export const RIDM_TAGS = [ADVERTISING, INDESIGN, ILLUSTRATOR, PHOTOSHOP, FRESCO];

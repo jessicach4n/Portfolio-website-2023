@@ -23,7 +23,7 @@ export class GenArt extends Page {
                 <img width="1500px" height='890px' src="assets/genart-mockup.jpg"
                     alt="Multiple pages appearing on the Weather Art Generator website." />
                 <h2>The project</h2>
-                <div className="two-columns">
+                <div>
                     <p>
                         The Weather Art Generator creates art from a set of data that,
                         in the desire to connect with viewers, comes from an intelligible
